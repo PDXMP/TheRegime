@@ -1,0 +1,13 @@
+﻿{
+	"name":	"Based and Regime-pilled",
+	"id":	"regime",
+	"version":	"0.*",
+	"supported_game_version":	"1.*",
+	"short_description":	"speed + location fix for now",
+	"tags":	["Balance", "Fixes", "Gameplay"],
+	"picture": "thumbnail.png",
+	"relationships":	[],
+	"game_custom_data":	{
+	   "multiplayer_synchronized" : true
+}
+}

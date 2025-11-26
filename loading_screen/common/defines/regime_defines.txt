@@ -1,0 +1,17 @@
+NGame = {
+
+    GAME_SPEED_TICKS = {	# how many seconds should an hour take in every game speed
+		1
+		0.4
+		0.08
+		0.04
+		0.0
+	}
+	GAME_SPEED_SCALES = {	# Factors to scale speed
+		0.75
+		1
+		1.25
+		1.5
+		2.0
+	}
+}
