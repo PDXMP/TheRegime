@@ -145,3 +145,9 @@ game_data = { category = location }
 
 	local_population_growth = 7.00
 }
+
+newdeath_modifier = {
+	game_data = { category = location}
+
+	local_population_growth = -9.00
+}
