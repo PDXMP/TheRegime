@@ -22,7 +22,7 @@ game_data = { category = location }
 maoop_modifier = {
 game_data = { category = location }
 
-	local_population_growth = 9.76
+	local_population_growth = 17.84
 }
 
 turoop_modifier = {
@@ -66,7 +66,7 @@ game_data = { category = location }
 moroop_modifier = {
 game_data = { category = location }
 
-	local_population_growth = 11.00
+	local_population_growth = 21.87
 }
 
 wuoop_modifier = {
