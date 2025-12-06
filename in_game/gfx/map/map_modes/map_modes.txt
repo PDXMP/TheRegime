@@ -7656,3 +7656,4 @@ select_target_colonial = {
 	color_and_names_refresh_counters = { LocationOwnerChanged CountryStatus ColonialCharter }
 
 }
+
