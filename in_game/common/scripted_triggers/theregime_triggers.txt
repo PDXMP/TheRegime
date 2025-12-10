@@ -1,1 +1,8 @@
 ﻿#The Regime Scripted Triggers
+regime_is_human_vassal_trigger = {
+	any_overlord_or_above = {
+		is_human = yes
+	}
+	is_human = yes
+	NOT = { is_free_or_tributary_trigger }
+}
