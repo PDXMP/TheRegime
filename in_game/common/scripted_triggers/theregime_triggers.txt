@@ -6,3 +6,8 @@ regime_is_human_vassal_trigger = {
 	is_human = yes
 	NOT = { is_free_or_tributary_trigger }
 }
+regime_is_human_hierarchy = {
+	any_country_in_hierarchy = {
+		is_human = yes
+	}
+}
