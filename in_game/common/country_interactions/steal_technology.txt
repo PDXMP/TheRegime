@@ -18,6 +18,14 @@
 		}
 		visible = {
 			num_of_advances_researched > scope:actor.num_of_advances_researched
+			NOT = {
+				scope:recipient = {
+					regime_is_human_hierarchy = yes
+				}
+				scope:actor = {
+					regime_is_human_vassal_trigger = yes
+				}
+			}
 		}
         enabled = {
 			research_progress > 20

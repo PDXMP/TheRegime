@@ -3,6 +3,7 @@
 	category = CATEGORY_SUBJECT_ACTIONS
 
 	potential = {
+		regime_is_human_vassal_trigger = no
 	}
 
 	allow = {

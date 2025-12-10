@@ -19,6 +19,14 @@
 		}
 		visible = {
 			num_loans > 0
+			NOT = {
+				scope:recipient = {
+					regime_is_human_hierarchy = yes
+				}
+				scope:actor = {
+					regime_is_human_vassal_trigger = yes
+				}
+			}
 		}
         enabled = {
 			any_loan = {

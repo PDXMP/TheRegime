@@ -29,6 +29,14 @@
 			capital = { is_discovered_by = scope:actor }
 			within_diplomatic_range = scope:actor
 			has_reform = government_reform:banking_country
+			NOT = {
+				scope:recipient = {
+					regime_is_human_hierarchy = yes
+				}
+				scope:actor = {
+					regime_is_human_vassal_trigger = yes
+				}
+			}
 		}
         enabled = {
 			gold > monthly_income_total
