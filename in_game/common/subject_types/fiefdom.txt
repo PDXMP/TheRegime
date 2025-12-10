@@ -70,6 +70,7 @@ fiefdom = { # like a personal union except the subject has much less power
 		religion.group = scope:target.religion.group
 		government_type = government_type:monarchy
 		country_rank_level >= scope:target.country_rank_level
+		scope:target = { is_human = no }
 		
 		#Japanese Imperial Courts Exception
 		trigger_if = {
@@ -127,6 +128,7 @@ fiefdom = { # like a personal union except the subject has much less power
 				regent ?= root.ruler
 			}
 		}
+		scope:target = { regime_is_human_hierarchy = no }
 	}
 
 	on_enable = {
