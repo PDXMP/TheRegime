@@ -6,7 +6,6 @@
 		country_rank_level >= scope:target.country_rank_level
 		NOT = { has_advance = samanta_advance }
 		scope:target = { subject_type_is_not_locked = yes }
-		scope:target = { is_human = no }
 
 		#Japanese Imperial Courts Exception
 		trigger_if = {
@@ -151,9 +150,6 @@
 		different_government_type = -25
 		actor_at_war = -20
 		competing_power = -200
-	}
-	enabled_through_diplomacy = {
-		scope:target = { regime_is_human_hierarchy = no }
 	}
 
 	ai_wants_to_be_overlord = {
