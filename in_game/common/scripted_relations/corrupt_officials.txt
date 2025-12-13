@@ -17,10 +17,6 @@
 		scope:recipient = {
 			modifier:country_cabinet_efficiency >= 0.0
 		}
-		NOT = {
-			scope:actor = { regime_is_human_vassal_trigger = yes }
-			scope:recipient = { regime_is_human_hierarchy = yes }
-		}
 	}
 
 	use_with_enemies = yes

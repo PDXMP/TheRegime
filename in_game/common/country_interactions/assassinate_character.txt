@@ -5,7 +5,6 @@
 	ai_tick = never
 
 	potential = {
-		regime_is_human_vassal_trigger = no
 	}
 
 	allow = {
