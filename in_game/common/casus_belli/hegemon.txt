@@ -1,0 +1,12 @@
+#root is country
+#scope:target is the target 
+
+
+cb_hegemon = {
+	visible = {
+		is_hegemon = no
+		scope:target = { is_hegemon = yes }
+	}
+
+	war_goal_type = superiority_livonian_wars
+}
