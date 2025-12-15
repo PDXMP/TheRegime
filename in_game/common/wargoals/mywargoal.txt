@@ -5,8 +5,8 @@
         allowed_subjugation = {
 			always = no
 		}
-        conquer_cost = 100
-        subjugate_cost = 100
+        conquer_cost = 10
+        subjugate_cost = 10
         allowed_locations = {
 			casus_belli_forbids_location_conquest = yes
 		}
@@ -16,8 +16,8 @@
         allowed_subjugation = {
 			always = no
 		}
-        conquer_cost = 100
-        subjugate_cost = 100
+        conquer_cost = 10
+        subjugate_cost = 10
         allowed_locations = {
 			casus_belli_forbids_location_conquest = yes
 		}
