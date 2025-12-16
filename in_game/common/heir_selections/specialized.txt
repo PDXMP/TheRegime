@@ -1,120 +1,120 @@
-﻿admiralty_regime_heir_selection = {
-	#The succession is not through heirs or through elections but through military service
-	#It is a meritocratic one, but only characters which serve as admiral right now are considered
-	all_in_country = yes
-	allow_foreign_ruler = no
-	show_candidates = no
-	ignore_ruler = yes
-	heir_is_allowed = {
-	}
-	potential = {
-		has_reform = government_reform:admiralty_regime_reform
-	}
-	locked = {
-		has_reform = government_reform:admiralty_regime_reform
-	}
-	calc = {
-		if = {
-			limit = {
-				exists = root
-			}
-			add = {
-				desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
-				value = root.character_age
-			}
-			add = {
-				desc = "HEIR_SELECTION_ADM_DESC"
-				value = root.adm
-			}
-			add = {
-				desc = "HEIR_SELECTION_DIP_DESC"
-				value = root.dip
-			}
-			add = {
-				desc = "HEIR_SELECTION_MIL_DESC"
-				value = root.mil
-			}
-			
-			if = {
-				limit = { 
-					is_admiral = yes
-				}
-				add = {
-					desc = "HEIR_SELECTION_ADMIRAL_DESC"
-					value = 100
-				}
-			}
-			
-			if = {
-				limit = {
-					NOR = {
-						is_admiral = yes
-						has_trait_category = admiral
-					}
-				}
-				add = {
-					desc = "HEIR_SELECTION_NOT_ADMIRAL_DESC"
-					value = -1000
-				}
-			}
-			
-			if = {
-				limit = { 
-					has_trait_category = admiral
-				}
-				add = {
-					desc = "HEIR_SELECTION_ADMIRAL_TRAIT_DESC"
-					value = 50
-				}
-			}
-			if = { 
-				limit = { modifier:blocked_from_being_ruler = yes }
-				add = {
-					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
-					value = -1000 
-				}
-			}
-		}
-		if = {
-			limit = {
-				not = { exists = root }
-			}
-			add = {
-				desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
-				value = 1
-			}
-			add = {
-				desc = "HEIR_SELECTION_ADM_DESC"
-				value = 1
-			}
-			add = {
-				desc = "HEIR_SELECTION_DIP_DESC"
-				value = 1
-			}
-			add = {
-				desc = "HEIR_SELECTION_MIL_DESC"
-				value = 1
-			}
-			add = {
-				desc = "HEIR_SELECTION_ADMIRAL_DESC"
-				value = 100
-			}
-			add = {
-				desc = "HEIR_SELECTION_ADMIRAL_TRAIT_DESC"
-				value = 50
-			}
-			add = {
-				desc = "HEIR_SELECTION_NOT_ADMIRAL_DESC"
-				value = -1000
-			}
-		}
-	}
-	succession_effect = {
-		scope:new_ruler = {
-			change_character_estate = estate_type:crown_estate
-		}
-	}
-}
+﻿#admiralty_regime_heir_selection = {
+#	#The succession is not through heirs or through elections but through military service
+#	#It is a meritocratic one, but only characters which serve as admiral right now are considered
+#	all_in_country = yes
+#	allow_foreign_ruler = no
+#	show_candidates = no
+#	ignore_ruler = yes
+#	heir_is_allowed = {
+#	}
+#	potential = {
+#		has_reform = government_reform:admiralty_regime_reform
+#	}
+#	locked = {
+#		has_reform = government_reform:admiralty_regime_reform
+#	}
+#	calc = {
+#		if = {
+#			limit = {
+#				exists = root
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+#				value = root.character_age
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_ADM_DESC"
+#				value = root.adm
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_DIP_DESC"
+#				value = root.dip
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_MIL_DESC"
+#				value = root.mil
+#			}
+#			
+#			if = {
+#				limit = { 
+#					is_admiral = yes
+#				}
+#				add = {
+#					desc = "HEIR_SELECTION_ADMIRAL_DESC"
+#					value = 100
+#				}
+#			}
+#			
+#			if = {
+#				limit = {
+#					NOR = {
+#						is_admiral = yes
+#						has_trait_category = admiral
+#					}
+#				}
+#				add = {
+#					desc = "HEIR_SELECTION_NOT_ADMIRAL_DESC"
+#					value = -1000
+#				}
+#			}
+#			
+#			if = {
+#				limit = { 
+#					has_trait_category = admiral
+#				}
+#				add = {
+#					desc = "HEIR_SELECTION_ADMIRAL_TRAIT_DESC"
+#					value = 50
+#				}
+#			}
+#			if = { 
+#				limit = { modifier:blocked_from_being_ruler = yes }
+#				add = {
+#					desc = "HEIR_SELECTION_IS_UNSUITED_TO_RULE_DESC"
+#					value = -1000 
+#				}
+#			}
+#		}
+#		if = {
+#			limit = {
+#				not = { exists = root }
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_OLDER_HEIR_DESC"
+#				value = 1
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_ADM_DESC"
+#				value = 1
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_DIP_DESC"
+#				value = 1
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_MIL_DESC"
+#				value = 1
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_ADMIRAL_DESC"
+#				value = 100
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_ADMIRAL_TRAIT_DESC"
+#				value = 50
+#			}
+#			add = {
+#				desc = "HEIR_SELECTION_NOT_ADMIRAL_DESC"
+#				value = -1000
+#			}
+#		}
+#	}
+#	succession_effect = {
+#		scope:new_ruler = {
+#			change_character_estate = estate_type:crown_estate
+#		}
+#	}
+#}
 
 general_heir_selection = {
 	#Same as the admiralty version, but for generals
