@@ -1,6 +1,10 @@
 ﻿
 on_game_start = {
     effect = {
+    c:BOH = {
+        revoke_estate_privilege = estate_privilege:auxilium_et_consilium
+        grant_estate_privilege = estate_privilege:monetary_fiefs
+    }
     c:FRA = {
             trigger_event_non_silently = setup_mod.1
         }
