@@ -3617,7 +3617,7 @@ segregate_the_infected = {
 	global_disease_resistance = 0.15
 	burghers_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
 	peasants_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
-	monthly_towards_communalism = societal_value_large_monthly_move
+	#monthly_towards_communalism = societal_value_large_monthly_move
 }
 
 strict_quarantines = {
