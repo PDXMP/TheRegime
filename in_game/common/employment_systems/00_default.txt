@@ -1,6 +1,6 @@
 ﻿equality = {
 	country_modifier = {
-		monthly_towards_communalism = societal_value_monthly_move
+		#monthly_towards_communalism = societal_value_monthly_move
 	}
 
 	priority = {
@@ -69,7 +69,7 @@ capitalism = {
 capitalism_prioritising_infrastructure = {
 	country_modifier = {
 		monthly_towards_capital_economy = societal_value_minor_monthly_move
-		monthly_towards_communalism = societal_value_minor_monthly_move
+		#monthly_towards_communalism = societal_value_minor_monthly_move
 	}
 
 	priority = {
