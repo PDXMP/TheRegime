@@ -43,6 +43,36 @@ setup_mod.1 = {
 					add_core = c:TNC
 				}
 			}
+			area:norrland_area = {
+				every_location_in_area = {
+					change_location_owner = c:SWE
+					add_core = c:SWE
+				}
+			}
+			area:finland_area = {
+				every_location_in_area = {
+					change_location_owner = c:SWE
+					add_core = c:SWE
+				}
+			}
+			area:karelia_area = {
+				every_location_in_area = {
+					change_location_owner = c:NOV
+					add_core = c:NOV
+				}
+			}
+			area:kola_area = {
+				every_location_in_area = {
+					change_location_owner = c:NOV
+					add_core = c:NOV
+			}
+			}
+			area:nord_norge_area = {
+				every_location_in_area = {
+					change_location_owner = c:NOR
+					add_core = c:NOR
+			}
+			}
 				if = {
 					limit = {
 						exists = c:JAP
@@ -66,7 +96,6 @@ setup_mod.1 = {
 					}
 				}
 			}
-		}
 		}
 setup_mod.2 = {
 	type = country_event
