@@ -3626,7 +3626,7 @@ strict_quarantines = {
 	}
 	burghers_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
 	peasants_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
-	monthly_towards_communalism = societal_value_huge_monthly_move
+	#monthly_towards_communalism = societal_value_huge_monthly_move
 	enable_pest_house = yes
 }
 
