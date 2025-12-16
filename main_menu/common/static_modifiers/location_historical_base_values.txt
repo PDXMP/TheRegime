@@ -199,7 +199,7 @@ kremnica_gold_mines = {
 	game_data = {
 		category = location
 	}
-	local_goods_gold_output_modifier = 0.25
+	local_goods_gold_output_modifier = 0
 }
 
 srebrenica_silver_mines_base = {
