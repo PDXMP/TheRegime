@@ -288,7 +288,7 @@ lollardy = {
 	definition_modifier = {	
 		global_clergy_estate_power = -0.5
 		global_peasants_estate_power = 0.5
-		global_max_literacy = 10
+		global_max_literacy = 5
 		
 		monthly_religious_influence = 0.1
 
