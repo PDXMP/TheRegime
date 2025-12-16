@@ -108,7 +108,7 @@ military_regime_reform = {
 	}
 
 	allow = {
-		NOT = { has_reform = government_reform:admiralty_regime_reform }
+		#NOT = { has_reform = government_reform:admiralty_regime_reform }
 	}
 	
 	country_modifier = {
