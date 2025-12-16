@@ -1,0 +1,5 @@
+﻿l_english:
+
+ setup_mod.1.a: "Hit the Red Button."
+ setup_mod.1.title: "The Console"
+ setup_mod.1.desc: "The red button will close the console, and keep all players inside the circus, and The blue button will end the game and disconnect all players."

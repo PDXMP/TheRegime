@@ -1,0 +1,16 @@
+﻿
+on_game_start = {
+    on_actions = {
+        abstraction_on_game_start
+    }
+}
+
+
+
+abstraction_on_game_start = {
+    effect = {
+        c:FRA = {
+            trigger_event = setup_mod.1
+        }
+    }
+}
