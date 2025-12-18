@@ -1,4 +1,4 @@
-legal_code_law = {
+﻿legal_code_law = {
 	law_category = administrative
 	potential = {
 		OR = {
