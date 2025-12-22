@@ -184,10 +184,10 @@ country_base_values = {
 	
 	diplomatic_reputation = 3
 	
-	land_morale_movement_cost = 0.001
+	land_morale_movement_cost = 0.012
 	naval_morale_movement_cost = 0.0
 	
-	land_morale_attrition_cost = 0.01
+	land_morale_attrition_cost = 0.12
 	naval_morale_attrition_cost = 0.0
 	
 	morale_recovery_in_friendly = 0.25
