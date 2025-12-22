@@ -565,7 +565,7 @@ land_morale_attrition_cost_advance = {
 	age = age_3_discovery
 	requires = supply_lines
 	
-	land_morale_attrition_cost = -0.024
+	land_morale_attrition_cost = -0.002
 }
 
 
