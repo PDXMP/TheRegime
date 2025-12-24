@@ -27,8 +27,14 @@
 
 NUnit = {
 
-	EMBARK_DISEMBARK_MULTIPLIER = 0.3 
-
+	#EMBARK_DISEMBARK_MULTIPLIER = 0.3 
+	
+	#NAVY_MOVEMENT_SPEED = 0.5         # Does not seem to make ships travel faster - TW 
+	
+	ATTRITION_DAYS_AT_SEA = 0.01       # 0.02 ---> 0.01 to comp for long sea journeys. 
+	NAVAL_ATTRITION_CHANCE = 0.04
+	OUTSIDE_OF_NAVAL_RANGE_ATTRITION = 0.2
+	
 	SIZE_IMPACT_ON_MOVEMENT_SCALE = -0.02
 	SIZE_IMPACT_ON_MOVEMENT_CAP = -0.5
 
