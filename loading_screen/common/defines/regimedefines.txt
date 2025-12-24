@@ -64,7 +64,7 @@ NCombat = {
 	INITIATIVE_CHANCE_EACH = 0.02
 	INITIATIVE_CHANCE_HOURS = 0.08
 
-	COMBAT_SPEED_SCALE = 0.25
+	COMBAT_SPEED_SCALE = 0.1
 	
 	ASSAULT_ATTACKER_LOSS = 41				#These look weird, but this approximates a vanilla siege assault result in a shorter timeframe.                   	
 	ASSAULT_ATTACKER_MORALE_LOSS = 12
