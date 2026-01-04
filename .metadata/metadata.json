@@ -3,7 +3,7 @@
 	"id":	"regime",
 	"version":	"0.*",
 	"supported_game_version":	"1.*",
-	"short_description":	"speed + location fix for now",
+	"short_description":	"Combat testing for the Regime EU5 MP server: https://discord.gg/u67xzsJk ",
 	"tags":	["Balance", "Fixes", "Gameplay"],
 	"picture": "thumbnail.png",
 	"relationships":	[],
