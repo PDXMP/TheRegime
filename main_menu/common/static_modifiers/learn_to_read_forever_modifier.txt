@@ -1,0 +1,6 @@
+learn_to_read_forever_modifier  = {
+	game_data = {
+		category = country
+	}
+	local_monthly_literacy = 0.5
+}
