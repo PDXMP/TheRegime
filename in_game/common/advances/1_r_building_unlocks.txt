@@ -1,0 +1,31 @@
+﻿##############################
+# Port Buildings
+##############################
+r_pier_advance = {
+	age = age_1_traditions
+	
+	requires = ship_building_advance
+	
+	allow = { 
+		has_embraced_institution = institution:feudalism
+	}
+
+	unlock_building = r_pier
+
+	ai_weight = {
+		if = {
+			limit = {
+				has_ports = yes
+			}
+			add = {
+				value = 200
+				multiply = num_of_ports
+				divide = num_locations
+			}
+		}
+	}
+	
+	ai_preference_tags = {
+		exploration
+	}
+}

@@ -1,0 +1,4 @@
+building_manager = {
+	r_pier = { tag = TUN level = 1 location = tunis }
+	r_pier = { tag = MOR level = 1 location = rabat }
+}
