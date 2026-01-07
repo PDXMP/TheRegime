@@ -39,23 +39,29 @@ countries = {
 
 			harnosand solatunum ramsele sjalevad anundsjo grundsunda
 
-			umea lulea
-
+			umea lulea bygdea vindeln gratesk skelleftea byske alvsby pitea bodebyn ranea branna tornea kiemi rovaniemi hienatiemi
+			brahestad uleaborg kuivaniemi simo
 			abo poytis sauvo nystad
 			helsinge ekenas sjundea porvoo kymi_fi
 
-			vyborg villmanstrand veckelax vederlax beryozovskoye
-			ikalis raumo bjorneborg hvittis sastmola birkala sastamala
-			korsholm koppo
-			hollola lohja tavastehus janakkala forssa liljendal jamsa
+			vyborg villmanstrand veckelax vederlax beryozovskoye heinjoki jaskis elimaki
+			ikalis raumo bjorneborg hvittis sastmola birkala sastamala orivesi
+			korsholm koppo storkyro lappo kaustby vora pedersore karleby
+			hollola lohja tavastehus janakkala forssa liljendal jamsa itis sysma jyvaskyla laukas saarijarvi viitasaari
 
 			valkeasaari kyyrola
 		}
 
-
-
-		own_control_colony = {
-			 asele
+		own_control_integrated = {
+			asele ortrask lycksele arvidsjaur stensele volgsjo tarna
+			akkajaur sorsele silbojock arjeplog
+			jokkmokk kvikkjock socksjock gellivaara porjus sarek
+			nunnanen mourionska korpilombo enontakis juckasjarvi nikkaluokta abisko raunala kasivarren
+			kittila pajala
+			korvala kemijarvi salla savukoski sodankyla ivalo enare utsjoki
+			posio ranua taivalkoski pudasjarvi utajarvi siikalatva
+			kuusamo suomussalmi kuhmo sotkamo paltamo kajana
+			idensalmi rautavaara savonranta olofsborg kuopio joroinen ristiina mikkeli kangasniemi heinola
 		}
 
 
@@ -362,7 +368,7 @@ countries = {
 			vardal lillehammer valdres otta alvdal imsdalen hedmarksvidda
 			hamar kongsvinger elverum glommadal trysil amot tynset
 			troms trondenes senja bardodalen 
-			bodo birndal alstahaug gildeskal steigen langenes lofotr hamaroy ofoti
+			bodo birndal alstahaug gildeskal steigen langenes lofotr hamaroy ofoti rana
 			raisa vardo deatnu porsanger hammerfest lebesby 
 			
 
@@ -372,7 +378,7 @@ countries = {
 		}
 		
 		own_control_integrated = {
-			varanger  alta
+			varanger alta hattfjelldal kautokeino karasjok
 			kirkenes
 		}
 
@@ -1999,7 +2005,7 @@ countries = {
 			novgorod golino staropolye staraya_russa chudovo kosichkoj zaplyusye kresttsy yazhelbitsy berezovets nebolchi
 			kholm velikiye_luki demon soltsy nalyuchi dolchinyo vlitsy sumino nadvoitsy
 			staraya_ladoga tikhvin lipno_nov borovichi pikalyovo soltsy_kirishi maselga spirkovo lyubytino
-			olonets vazhiny shuya_karelia kondpoga kizhi shyoltozero lindjarvi semcojarvi lodenoye_pole vytegra vinnitsy
+			olonets vazhiny shuya_karelia kondpoga kizhi shyoltozero lindjarvi semcojarvi lodenoye_pole vytegra vinnitsy andomsky_pogost
 			gorodetsk maksatikha udomlya smerdyn moshenskoye okhona belye_kresty ozerevo troshovo babayevo pudoga iksa village_onega
 			luda malye_oserki nyonoksa priluky pomorye arkhangelsk kholmogory vaymuga brin_navolok siya ust_pinega vershinino sheleksa yemetsk
 			ramenki mednoye vyshny_volochyok bologoye zhabny torzhok kuvshinovo ostashkov
@@ -2010,8 +2016,13 @@ countries = {
 			ilyinsko_podomskoye ust_vayenga
 			porkhov plyussa dubronjo spas_na_kholmu
 			rzheva_pustaya ashevo bezhanitsy podberezye visokoye kuretsk lyakhovichy maryovo lyubno svinort gorodets_luga izori tesov
-			bronnitsa gruzino veliky_porog valday pribuzh ivangorod izboishchi pashozero tervenichi megra voznesenye ostrechiny andomsky_pogost
-			kinerma pryazha salmi loimola sordavala kurkijoki sellinkyla karhumagi puatane saarijoki sumsky_posad unezhma vygozero maloshuyka
+			bronnitsa gruzino veliky_porog valday pribuzh ivangorod izboishchi pashozero tervenichi megra voznesenye ostrechiny anadomsky_pogost
+			kinerma pryazha salmi loimola sordavala kurkijoki sellinkyla repola pieninka karhumagi puatane sumsky_posad unezhma vygozero maloshuyka suojarvi vartsila ilomantsi mohko lieksa joensuu juuka nurmes
+			ontajarvi tunkuo suikujarvi rukajarvi jyskyjarvi paanajarvi uhtuo kiestinki
+			kem saarijoki kriitina keret kovda
+			alakurti akkala koliskoj nuorttijarvi suonikyla prirechnyi pechenga mootka
+			raivke kantalahti umba olenitsa kashkarantsy varzuga tetrino pyalitsa
+			luujarvi maaselka kola kiltina dalniye_zelentsy semiostrov svyatoy_nos ponoi
 			chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
 			#Principality of Volokolansk
 			volok
