@@ -6,6 +6,7 @@
 	category = naval_category
 	
 	employment_size = dock_employment
+	icon = dock
 	
 	town = yes
 	city = yes
