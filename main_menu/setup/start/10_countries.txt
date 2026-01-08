@@ -34791,36 +34791,36 @@ countries = {
 		capital = aosta
 	}
 
-	WDE = {  # Waldeck (North Germany)
-		own_control_core = {
-			korbach
-		}
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "expl_northern_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "german_principality"
-		government = {
-			ruler = wde_henry_iv_von_waldeck
+#	WDE = {  # Waldeck (North Germany)
+#		own_control_core = {
+#			korbach
+#		}
+#		starting_technology_level = 3
+#		include = "expl_western_europe"
+#		include = "expl_northern_europe"
+#		include = "catholic_monarchy_no_coast"
+#		include = "german_principality"
+#		government = {
+#			ruler = wde_henry_iv_von_waldeck
 
-			ruler_term = { character = wde_adolph_i_von_waldeck start_date = 1214.1.1 end_date = 1267.1.1 regnal_number = 1 }
-			ruler_term = { character = wde_henry_iii_von_waldeck start_date = 1267.1.1 end_date = 1270.10.3 regnal_number = 3 }
-			ruler_term = { character = wde_adolph_ii_von_waldeck start_date = 1270.10.3 end_date = 1302.12.13 regnal_number = 2 }
-			ruler_term = { character = wde_otto_i_von_waldeck start_date = 1302.12.13 end_date = 1305.11.11 regnal_number = 1 }
-			ruler_term = { character = wde_henry_iv_von_waldeck start_date = 1305.11.11 regnal_number = 4 }
+#			ruler_term = { character = wde_adolph_i_von_waldeck start_date = 1214.1.1 end_date = 1267.1.1 regnal_number = 1 }
+#			ruler_term = { character = wde_henry_iii_von_waldeck start_date = 1267.1.1 end_date = 1270.10.3 regnal_number = 3 }
+#			ruler_term = { character = wde_adolph_ii_von_waldeck start_date = 1270.10.3 end_date = 1302.12.13 regnal_number = 2 }
+#			ruler_term = { character = wde_otto_i_von_waldeck start_date = 1302.12.13 end_date = 1305.11.11 regnal_number = 1 }
+#			ruler_term = { character = wde_henry_iv_von_waldeck start_date = 1305.11.11 regnal_number = 4 }
 
-			regnal_numbers = {
-				name_adolf = 2
-				name_henry = 4
-				name_otto = 1
-			}
-		}
-		tolerated_cultures = {
-			angrian
-		}
-		country_rank = rank_county
-		capital = korbach
-	}
+#			regnal_numbers = {
+#				name_adolf = 2
+#				name_henry = 4
+#				name_otto = 1
+#			}
+#		}
+#		tolerated_cultures = {
+#			angrian
+#		}
+#		country_rank = rank_county
+#		capital = korbach
+#	}
 
 	RBG = {  # Rietberg (North Germany)
 		own_control_core = {
@@ -37539,7 +37539,7 @@ countries = {
 
 	HES = {	#Hesse
 		own_control_core = {
-			kassel rotenburg eschwege frankenberg marburg alsfeld
+			kassel rotenburg eschwege frankenberg marburg korbach alsfeld ziegenhain
 			giessen melsungen
 		}
 
@@ -37562,6 +37562,7 @@ countries = {
 			reforms = {
 				landgraviate
 			}
+			land_vs_naval = -50
 		}
 
 		tolerated_cultures = {
@@ -37598,32 +37599,32 @@ countries = {
 		capital = paderborn
 	}
 
-	ZIG = {	#Ziegenhain
-		own_control_core = {
-			ziegenhain
-		}
+#	ZIG = {	#Ziegenhain
+#		own_control_core = {
+#			ziegenhain
+#		}
 
-		starting_technology_level = 3
-		include = "expl_western_europe"
-		include = "catholic_monarchy_no_coast"
-		include = "expl_northern_europe"
-		include = "german_principality"
-		government = {
+#		starting_technology_level = 3
+#		include = "expl_western_europe"
+#		include = "catholic_monarchy_no_coast"
+#		include = "expl_northern_europe"
+#		include = "german_principality"
+#		government = {
 
-			ruler = zig_johann_i_ziegenhain
-			ruler_term = {	character = zig_gottfried_vi_ziegenhain start_date = 1272.1.1 end_date = 1304.11.30 regnal_number = 6	}
-			ruler_term = {	character = zig_johann_i_ziegenhain start_date = 1304.11.30 regnal_number = 1	}
+#			ruler = zig_johann_i_ziegenhain
+#			ruler_term = {	character = zig_gottfried_vi_ziegenhain start_date = 1272.1.1 end_date = 1304.11.30 regnal_number = 6	}
+#			ruler_term = {	character = zig_johann_i_ziegenhain start_date = 1304.11.30 regnal_number = 1	}
 
-			regnal_numbers = {
-				name_godfrey = 6
-				name_engelbert = 1
-				name_john = 1
-			}
-		}
-		country_rank = rank_county
-		capital = ziegenhain
-		dynasty = ziegenhain_dynasty
-	}
+#			regnal_numbers = {
+#				name_godfrey = 6
+#				name_engelbert = 1
+#				name_john = 1
+#			}
+#		}
+#		country_rank = rank_county
+#		capital = ziegenhain
+#		dynasty = ziegenhain_dynasty
+#	}
 
 	HNA = {	#Hanau
 		own_control_core = {

@@ -1,0 +1,5 @@
+market_manager = {
+	#Europe
+	add_market = kassel
+
+}
