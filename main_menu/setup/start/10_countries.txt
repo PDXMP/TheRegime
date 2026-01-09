@@ -21806,6 +21806,7 @@ countries = {
 
 			reforms = {
 				mamluk_government
+				r_mamluk_military_supremacy
 			}
 
 			privilege = {
