@@ -11,6 +11,7 @@ mamluk_government = {
 		}
 	}
 	country_modifier = {
+		government_reform_slots = 1
 		can_promote_mamluks = yes
 		can_build_mamluk_barracks = yes
 		monthly_army_tradition = 0.1
