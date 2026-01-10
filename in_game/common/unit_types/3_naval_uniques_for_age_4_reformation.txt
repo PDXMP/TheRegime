@@ -4,7 +4,8 @@
 	buildable = yes
 	
 	hull_size = 40
-	cannons = 80
+	#cannons = 80
+	maritime_presence = ship_medium_maritime
 
 	maintenance_demand =  heavy_ship_4_maintenance
 	construction_demand = heavy_ship_4_construction
