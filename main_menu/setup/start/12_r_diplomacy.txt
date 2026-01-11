@@ -1,0 +1,7 @@
+diplomacy_manager = {
+    #-------Low Countries-------
+	#scripted_oneway = { first = HOL second = SBL type = guarantee }
+	
+    dependency = { first = HOL second = UTR subject_type = vassal }
+	
+}
