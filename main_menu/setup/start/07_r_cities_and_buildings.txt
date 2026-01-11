@@ -1,10 +1,22 @@
 building_manager = {
+	
+	#Low Countries
+	r_pier = { tag = HOL level = 1 location = amsterdam }
+	
+	#Maghreb
 	r_pier = { tag = TUN level = 1 location = tunis }
 	r_pier = { tag = MOR level = 1 location = rabat }
+	
 }
 
 locations={
 
 	#Germany
 	kassel = { rank = town town_setup = german_town }
+	stuttgart = { rank = city town_setup = german_city }
+	
+	#Low Countries
+	amsterdam = { rank = city town_setup = lowlands_coastal_city }
+	ghent = { rank = town town_setup = lowlands_town }
+
 }
