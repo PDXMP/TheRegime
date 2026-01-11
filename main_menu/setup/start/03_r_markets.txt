@@ -1,5 +1,8 @@
 market_manager = {
 	#Europe
 	add_market = kassel
+	add_market = stuttgart
+	add_market = berlin
+	add_market = amsterdam
 
 }
