@@ -17404,7 +17404,12 @@ countries = {
 			mercantilism_vs_free_trade = 20
 			capital_economy_vs_traditional_economy = 0
 			individualism_vs_communalism = -20
-
+			
+			privilege = {
+				#Nobles
+				monetary_fiefs
+			}
+			
 		}
 		capital = bruges
 		court_language = french_language
