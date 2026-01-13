@@ -1,4 +1,7 @@
 building_manager = {
+
+	#France
+	castle = { tag = SAV level = 1 location = chambery }
 	
 	#Low Countries
 	r_pier = { tag = HOL level = 1 location = amsterdam }
