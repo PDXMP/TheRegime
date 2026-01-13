@@ -221,12 +221,12 @@ diplomacy_manager = {
     scripted_mutual = { first = RIM second = CES type = alliance }
 
     dependency = { first = PAP second = FAE subject_type = vassal }
-
-    dependency = { first = SAV second = CEV subject_type = vassal }
-    dependency = { first = SAV second = AOS subject_type = fiefdom }
-    dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
+#Regime Change
+#    #r_dependency = { first = SAV second = CEV subject_type = vassal }
+#    #r_dependency = { first = SAV second = AOS subject_type = fiefdom }
+#    #r_dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = SAV second = PIE subject_type = appanage }
-    dependency = { first = SAV second = VUD subject_type = appanage }
+#    #r_dependency = { first = SAV second = VUD subject_type = appanage }
 
     dependency = { first = VER second = PAD subject_type = vassal }
     dependency = { first = VER second = PAR subject_type = vassal }
@@ -276,6 +276,7 @@ diplomacy_manager = {
     dependency = { first = AUG second = AGC subject_type = vassal }
     dependency = { first = BRE second = DIT subject_type = vassal }
     dependency = { first = LAU second = RTB subject_type = vassal }
+#Regime Change	
 #r_dependency = { first = WUR second = HBR subject_type = vassal }
     dependency = { first = TRI second = PSZ subject_type = vassal }
     dependency = { first = KMM second = NWG subject_type = fiefdom }
@@ -340,8 +341,10 @@ diplomacy_manager = {
     dependency = { first = POL second = PLK subject_type = vassal }
     dependency = { first = POL second = RAW subject_type = vassal }
     dependency = { first = POL second = CZK subject_type = vassal }
+	
 
     #Balkans:
+
     scripted_mutual = { first = HUN second = POL type = alliance }
     scripted_oneway = { first = HUN second = HAB type = embargo_nation }
     scripted_oneway = { first = POL second = HAB type = embargo_nation }
@@ -351,6 +354,7 @@ diplomacy_manager = {
     dependency = { first = ALB second = MTR subject_type = vassal }
     dependency = { first = ALB second = MZK subject_type = vassal }
     dependency = { first = ALB second = THP subject_type = vassal }
+#Regime Change
 #r_dependency = { first = HUN second = BOS subject_type = vassal }
 
     #Anatolia
