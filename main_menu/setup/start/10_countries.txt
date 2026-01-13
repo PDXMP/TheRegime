@@ -723,15 +723,16 @@ countries = {
 
 			bytow lebork
 		}
-		control = {
+		#Regime Change
+		#r_control = {
 			#Samogitia
-			palanga rietavas silale skuodas taurage
-			mazeikiai
+			#r_palanga rietavas silale skuodas taurage
+			#r_mazeikiai
 			##Dobrzyń Land
 			#dobrzyn lipno rypin
 			##Kujavia
 			#wloclawek bydgoszcz inowroclaw kowal radziejow
-		}
+		#}
 
 		include = "catholic_military_order"
 		include = "expl_northern_europe"
@@ -41053,16 +41054,19 @@ countries = {
 			lahoysk begoml byerazino ilya krasnoe smalyavichy
 			minsk chervyen koidanova marjina_horka rakau stowbtsy svislach
 			mogilev bykhaw
+			palanga rietavas silale skuodas taurage
+			mazeikiai
 		}
 		own_control_integrated = {
 			grodek
 			#Podlasie
 			drohiczyn bielsk_podlaski mielnik sokolow suraz
 		}
-		own_core = {
-			palanga rietavas silale skuodas taurage
-			mazeikiai
-		}
+			#Regime Change
+#		#r_own_core = {
+#			#palanga rietavas silale skuodas taurage
+#			#mazeikiai
+#		#}
 
 		include = "expl_eastern_europe"
 		include = "lithuanian_monarchy"
