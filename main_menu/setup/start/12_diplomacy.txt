@@ -295,7 +295,8 @@ diplomacy_manager = {
     dependency = { first = TEU second = SMD subject_type = vassal }
     dependency = { first = TEU second = PMS subject_type = vassal }
     dependency = { first = TEU second = CHL subject_type = vassal }
-    scripted_mutual = { first = TEU second = BOH type = alliance }
+#Regime Change	
+#    #r_scripted_mutual = { first = TEU second = BOH type = alliance }
 
     #-------Lithuania-------
     dependency = { first = LIT second = DRU subject_type = vassal }
