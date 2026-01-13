@@ -8,6 +8,7 @@ market_manager = {
 	add_market = london
 	add_market = dublin
 	add_market = edinburgh
+#Regime Change
 #r_add_market = bruges
 	add_market = dubrovnik
 	add_market = constantinople
