@@ -4,5 +4,6 @@ market_manager = {
 	add_market = stuttgart
 	add_market = berlin
 	add_market = amsterdam
+	add_market = geneve
 
 }
