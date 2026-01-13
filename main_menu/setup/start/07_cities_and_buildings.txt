@@ -296,6 +296,7 @@ locations={
 	ravensburg = { rank = town town_setup = german_town }
 	rothenburg = { rank = town town_setup = german_town }
 	soest = { rank = town town_setup = german_town }
+#Regime Change
 #r_stuttgart = { rank = town town_setup = german_town }
 	ulm = { rank = town town_setup = german_town }
 	trier = { rank = town town_setup = german_town }
@@ -336,11 +337,13 @@ locations={
 
 	#Low Countries	
 	bruges = { rank = city 				town_setup = lowlands_coastal_city }
+#Regime Change
 #r_ghent = { rank = city 				town_setup = lowlands_city }
 	ypres = { rank = town 				town_setup = lowlands_town }
 
 	antwerp = { rank = town 			town_setup = lowlands_costal_town }
 	the_hague = { rank = town 			town_setup = lowlands_costal_town }
+#Regime Change
 #r_amsterdam = { rank = town 			town_setup = lowlands_costal_town }
 	middelburg = { rank = town 			town_setup = lowlands_costal_town }
 	groningen = { rank = town 			town_setup = lowlands_costal_town }
@@ -1344,6 +1347,7 @@ building_manager = {
 	hanseatic_kontor = { tag = HSA level = 1 location = erfurt }
 	hanseatic_kontor = { tag = HSA level = 1 location = frankfurt }
 	hanseatic_kontor = { tag = HSA level = 1 location = paderborn }
+#Regime Change
 	#r_#not a town or city  hanseatic_kontor = { tag = HSA level = 1 location = kassel }
 	hanseatic_kontor = { tag = HSA level = 1 location = kassel }
 	#not a town or city  hanseatic_kontor = { tag = HSA level = 1 location = warburg }
