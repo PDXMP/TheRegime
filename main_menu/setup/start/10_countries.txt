@@ -1195,6 +1195,7 @@ countries = {
 			stendal osterburg salzwedel gardelegen
 			wittenberge pritzwalk treuenbrietzen ruppin wittstock havelberg
 			angermunde prenzlau
+			juterbog zossen
 		}
 
 		own_control_integrated = {
@@ -1316,9 +1317,12 @@ countries = {
 			#r_land_vs_naval = -20
 			outward_vs_inward = 0
 		}
-
-		tolerated_cultures = {
+		 #Regime Change
+		accepted_cultures = {
 			markish
+		}
+		
+		tolerated_cultures = {
 			#brandenburgish
 			polabian
 			eastern_pomeranian
@@ -1466,7 +1470,7 @@ countries = {
 
 	MAG = {	#Magdeburg
 		own_control_core = {
-			magdeburg juterbog jerichow burg wolmirstedt
+			magdeburg jerichow burg wolmirstedt #juterbog
 			haldensleben calbe halle_an_der_saale
 		}
 
@@ -36861,10 +36865,10 @@ countries = {
 		capital = plauen
 		dynasty = plauen_dynasty
 	}
-
+		#Regime Change
 	SOR = { #Lusatia
 		own_control_core = {
-			cottbus guben lubben luckau calau zossen
+			cottbus guben lubben luckau calau #zossen
 		}
 		starting_technology_level = 3
 		include = "expl_western_europe"
