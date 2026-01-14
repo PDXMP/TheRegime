@@ -80136,7 +80136,7 @@ adm = 31 dip = 34 mil = 24
 		culture = brandenburgish
 		religion = catholic
 		estate = nobles_estate
-		adm = 46 dip = 57 mil = 68
+		adm = 74 dip = 70 mil = 79 #Regime Change 46 57 68
 		birth_date = 1315.1.1 # Unknown
 		birth = balingen
 		father = hoh_friedrich_viii_von_zollern
