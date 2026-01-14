@@ -2053,8 +2053,8 @@ countries = {
 			raivke kantalahti umba olenitsa kashkarantsy varzuga tetrino pyalitsa
 			luujarvi maaselka kola kiltina dalniye_zelentsy semiostrov svyatoy_nos ponoi
 			chelmuzhi vodlozero shalskii rakitnya mikshino bernovo yezsk lyuban
-			#Principality of Volokolansk
-			volok
+			#Principality of Volokolansk #Regime Change
+			#volok
 		}
 
 		starting_technology_level = 3
@@ -2399,30 +2399,30 @@ countries = {
 		include = "russian_principality_no_coast"
 		include = "expl_novgorod"
 	}
+		#Regime Change
+#	#r_Principality of Dmitrov
+#	DMI = {
+#		own_control_core = {
+#			dmitrov rogachevo
+#		}
 
-	#Principality of Dmitrov
-	DMI = {
-		own_control_core = {
-			dmitrov rogachevo
-		}
+#		starting_technology_level = 3
+#		country_rank = rank_duchy
 
-		starting_technology_level = 3
-		country_rank = rank_duchy
+#		government = {
+#			type = monarchy
+#			heir_selection = cognatic_primogeniture
+#			ruler = dmi_dmitri_borisovich_rurikovich
+#			ruler_term = { character = dmi_boris_davydovich_rurikovich start_date = 1310.1.1 regnal_number = 1 end_date = 1334.1.1 }
+#			ruler_term = { character = dmi_dmitri_borisovich_rurikovich start_date = 1334.1.1 regnal_number = 1 }
+#		}
 
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = dmi_dmitri_borisovich_rurikovich
-			ruler_term = { character = dmi_boris_davydovich_rurikovich start_date = 1310.1.1 regnal_number = 1 end_date = 1334.1.1 }
-			ruler_term = { character = dmi_dmitri_borisovich_rurikovich start_date = 1334.1.1 regnal_number = 1 }
-		}
+#		liturgical_language = church_slavonic_language
 
-		liturgical_language = church_slavonic_language
-
-		capital = dmitrov
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
+#		capital = dmitrov
+#		include = "russian_principality_no_coast"
+#		include = "expl_novgorod"
+#	}
 
 	#Principality of Galich-Mersky
 	GLM = {
@@ -2803,35 +2803,35 @@ countries = {
 		include = "russian_principality_no_coast"
 		include = "expl_novgorod"
 	}
+		#Regime Change
+#	#r_Principality of Tarusa
+#	TRS = {
+#		own_control_core = {
+#			tarusa kaluga obolensk volkona
+#		}
 
-	#Principality of Tarusa
-	TRS = {
-		own_control_core = {
-			tarusa kaluga obolensk volkona
-		}
+#		starting_technology_level = 3
+#		country_rank = rank_duchy
 
-		starting_technology_level = 3
-		country_rank = rank_duchy
+#		government = {
+#			type = monarchy
+#			heir_selection = cognatic_primogeniture
+#			ruler = trs_konstantin_yurievich_rurikovich
 
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = trs_konstantin_yurievich_rurikovich
-
-			ruler_term = { character = trs_yuri_mikhailovich_rurikovich start_date = 1246.1.1 end_date = 1300.1.1 regnal_number = 1 }
-			ruler_term = { character = trs_konstantin_yurievich_rurikovich start_date = 1300.1.1 regnal_number = 1 }
-		}
+#			ruler_term = { character = trs_yuri_mikhailovich_rurikovich start_date = 1246.1.1 end_date = 1300.1.1 regnal_number = 1 }
+#			ruler_term = { character = trs_konstantin_yurievich_rurikovich start_date = 1300.1.1 regnal_number = 1 }
+#		}
 		#
-		liturgical_language = church_slavonic_language
+#		liturgical_language = church_slavonic_language
 
-		accepted_cultures = {
-			smolenskian_culture
-		}
+#		accepted_cultures = {
+#			smolenskian_culture
+#		}
 
-		capital = tarusa
-		include = "russian_principality_no_coast"
-		include = "expl_novgorod"
-	}
+#		capital = tarusa
+#		include = "russian_principality_no_coast"
+#		include = "expl_novgorod"
+#	}
 
 	#Principality of Ryazan
 	RYA = {
@@ -3125,21 +3125,23 @@ countries = {
 		include = "russian_principality_no_coast"
 		include = "expl_novgorod"
 	}
-
+		#Regime Change
 	#Principality of Muscovy
 	MOS = {
 		own_control_core = {
 			moscow zvenigorod ruza pushkino vokhna bronnitsy rogozh
 			mozhaysk vetza odintsovo
-			przemysl_moscow mushkov_pogost
+			przemysl_moscow mushkov_pogost dmitrov rogachevo volok
 			#Principality of Pereyaslavl-Zalessky
 			pereyaslavl alexandrovskaya_sloboda bogorodskoye_pereyaslavl kirzhach poreevo yanovo
-		}
-
-		own_control_conquered = {
-			#Principality of Kolomna
 			kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
+			tarusa kaluga obolensk volkona
 		}
+			#Regime Change
+		 #own_control_conquered = {
+			#Principality of Kolomna
+			#kolomna borovsk khatun koshira maloyaroslavets serpukhov vereya vysokoye
+		 #}
 
 		starting_technology_level = 3
 		country_rank = rank_kingdom
