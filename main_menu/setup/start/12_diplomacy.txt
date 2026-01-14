@@ -71,7 +71,8 @@ diplomacy_manager = {
     dependency = { first = CHR second = RYL subject_type = vassal }
     dependency = { first = CHR second = STS subject_type = vassal }
     dependency = { first = KCH second = KZK subject_type = vassal }
-    dependency = { first = LIT second = RZH subject_type = vassal }
+	#Regime Change
+#   #r_dependency = { first = LIT second = RZH subject_type = vassal }
     dependency = { first = NOV second = PSK subject_type = vassal }
     dependency = { first = NOV second = ORE subject_type = vassal }
     dependency = { first = NZH second = GRS subject_type = vassal }
@@ -304,7 +305,8 @@ diplomacy_manager = {
     dependency = { first = LIT second = PNK subject_type = vassal }
     dependency = { first = LIT second = POK subject_type = vassal }
     dependency = { first = LIT second = SSK subject_type = vassal }
-    dependency = { first = LIT second = TPS subject_type = vassal }
+	#Regime Change
+#   #r_dependency = { first = LIT second = TPS subject_type = vassal }
     dependency = { first = LIT second = TUV subject_type = vassal }
     dependency = { first = LIT second = VBK subject_type = vassal }
     scripted_mutual = { first = LIT second = POL type = alliance }
