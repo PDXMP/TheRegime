@@ -10839,51 +10839,51 @@ countries = {
 		capital = marseille
 		country_rank = rank_county
 	}
+		#Regime Change
+#	#r_PAD = {
+#		own_control_core = {
+#			este monselice padova
+#		}
 
-	PAD = {
-		own_control_core = {
-			este monselice padova
-		}
+#		starting_technology_level = 3
+#		include = "expl_mediterranean"
+#		include = "expl_silk_road_west"
+#		include = "expl_silk_road_center"
+#		include = "expl_silk_road_east"
+#		include = "expl_indian_trade_route"
+#		include = "catholic_republic_no_coast"
+#		include = "regime_hre_society_no_coast"
+#		government = {
+#			type = republic
+#			heir_selection = signoria_selection
 
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		include = "regime_hre_society_no_coast"
-		government = {
-			type = republic
-			heir_selection = signoria_selection
+#			reforms = {
+#				dynastic_signoria_reform
+#			}
 
-			reforms = {
-				dynastic_signoria_reform
-			}
+#			ruler = pad_marsiglio_carrara
+#			heir = pad_ubertino_novello_carrara
 
-			ruler = pad_marsiglio_carrara
-			heir = pad_ubertino_novello_carrara
+#			ruler_term = { character = ven_lorenzo_tiepolo start_date = 1265.7.1 end_date = 1266.7.1 }
+#			ruler_term = { character = pad_giacomo_carrara start_date = 1318.7.25 end_date = 1324.11.23 }
+#			ruler_term = { character = pad_marsiglio_carrara start_date = 1324.11.23 end_date = 1328.9.10 }
 
-			ruler_term = { character = ven_lorenzo_tiepolo start_date = 1265.7.1 end_date = 1266.7.1 }
-			ruler_term = { character = pad_giacomo_carrara start_date = 1318.7.25 end_date = 1324.11.23 }
-			ruler_term = { character = pad_marsiglio_carrara start_date = 1324.11.23 end_date = 1328.9.10 }
+#			ruler_term = { character = ver_cangrande_scala start_date = 1328.9.10 end_date = 1329.7.22 }
+#			ruler_term = {
+#				character = ver_mastino_ii_scala start_date = 1329.7.22 end_date = 1337.1.1
+#				character = ver_alberto_ii_scala start_date = 1329.7.22 end_date = 1337.1.1
+#			}
 
-			ruler_term = { character = ver_cangrande_scala start_date = 1328.9.10 end_date = 1329.7.22 }
-			ruler_term = {
-				character = ver_mastino_ii_scala start_date = 1329.7.22 end_date = 1337.1.1
-				character = ver_alberto_ii_scala start_date = 1329.7.22 end_date = 1337.1.1
-			}
+#			ruler_term = { character = pad_marsiglio_carrara start_date = 1337.1.1 }
+#		}
 
-			ruler_term = { character = pad_marsiglio_carrara start_date = 1337.1.1 }
-		}
+#		tolerated_cultures = {
+#			italki
+#		}
 
-		tolerated_cultures = {
-			italki
-		}
-
-		country_rank = rank_county
-		capital = padova
-	}
+#		country_rank = rank_county
+#		capital = padova
+#	}
 
 	PAP = {
 		own_control_core = {
@@ -12083,9 +12083,11 @@ countries = {
 			chioggia venice mestre
 			pola rovinj pag zadar split brac slano
 		}
-
+			#Regime Change
 		own_control_integrated = {
 			corfu modon kythira andros mykonos amorgos karpathos
+			padova monselice este
+			treviso conegliano ceneda castelfranco
 		}
 
 		include = "expl_mediterranean"
@@ -12261,7 +12263,7 @@ countries = {
 		dynasty = zeno_dynasty
 	}
 
-
+		#Regime Change
 	VER = {
 		own_control_core = {
 			legnago peschiera verona
@@ -12272,9 +12274,9 @@ countries = {
 		own_control_conquered = {
 			asola brescia palazzolo salo_ita breno nozza
 			cividale
-			ceneda conegliano
+			#ceneda conegliano treviso castelfranco
 			feltre
-			castelfranco treviso belluno
+			belluno
 			rovereto
 		}
 
