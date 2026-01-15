@@ -228,8 +228,8 @@ diplomacy_manager = {
 #    #r_dependency = { first = SAV second = GNV subject_type = vassal start_date = 1329.1.1 }
     dependency = { first = SAV second = PIE subject_type = appanage }
 #    #r_dependency = { first = SAV second = VUD subject_type = appanage }
-
-    dependency = { first = VER second = PAD subject_type = vassal }
+#Regime Change
+#    #r_dependency = { first = VER second = PAD subject_type = vassal }
     dependency = { first = VER second = PAR subject_type = vassal }
     dependency = { first = VER second = LUC subject_type = vassal }
 
