@@ -91925,18 +91925,18 @@ adm = 31 dip = 34 mil = 24
 		dynasty = borjigin_dynasty
 		tag = BRL
 	}
-
-	chg_timur_lame_borjigin = {
-		first_name = { name = name_temur }
-		culture = khorezmian_culture
-		religion = sunni
-		birth_date = 1336.4.8
-		birth = kish_shahrisabz
-		father = chg_taraghai_noyan_borjigin
-		dynasty = borjigin_dynasty
-		child_trait = child_prodigy
-		tag = BRL
-	}
+		#Regime Change
+#	#r_chg_timur_lame_borjigin = {
+#		first_name = { name = name_temur }
+#		culture = khorezmian_culture
+#		religion = sunni
+#		birth_date = 1336.4.8
+#		birth = kish_shahrisabz
+#		father = chg_taraghai_noyan_borjigin
+#		dynasty = borjigin_dynasty
+#		child_trait = child_prodigy
+#		tag = BRL
+#	}
 
 	chg_shah_temur_borjigin = {
 		first_name = { name = name_shah.name_temur }
