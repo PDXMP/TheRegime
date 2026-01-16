@@ -421,7 +421,7 @@ army_tradition = {
 	
 	monthly_towards_land = societal_value_monthly_move
 
-	great_power_score_exempt_from_forfeit = 10
+	great_power_score_exempt_from_forfeit = 50
 }
 
 navy_tradition = {
@@ -435,7 +435,7 @@ navy_tradition = {
 	
 	monthly_towards_naval = societal_value_monthly_move
 
-	great_power_score_exempt_from_forfeit = 10
+	great_power_score_exempt_from_forfeit = 50
 }
 
 
@@ -892,7 +892,7 @@ country_population = {
 country_control_scaled_population = {
 	scales_with = total_control_scaled_population
 
-	great_power_score = 0.05
+	great_power_score = 0.01
 }
 
 
@@ -972,7 +972,7 @@ total_merchant_capacity_impact = {
 	scales_with =  total_merchant_capacity
 
 
-	great_power_score = 0.05
+	great_power_score = 0.01
 }
 
 monthly_income_impact = {
@@ -985,7 +985,7 @@ monthly_income_impact = {
 num_embraced_institutions = {
 	scales_with = num_embraced_institutions
 
-	great_power_score_exempt_from_forfeit = 10
+	great_power_score_exempt_from_forfeit = 5
 }
 
 
