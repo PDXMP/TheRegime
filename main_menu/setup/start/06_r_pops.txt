@@ -1,1 +1,9 @@
-#extra documentation file for changes to 06_pops.txt (WIP)
+#extra documentation and notes file for changes to 06_pops.txt (WIP)
+
+#conjured pops from new buildings or other ways of increasing the cap appear to always be of the nations culture and religion
+#the listed caps per pop type do not match the information paradox provides
+#the listed pops for burghers, clerics, nobles arent relevant seemingly unless theyre not of main culture and religion
+#the listed pops for peasants matter in that an RGO will only fill up (for free) to the amount of peasants enumerated
+#sometimes(?) promotion and/or migration numbers take effect on the starting numbers 
+#for unclear reasons at present, changes in pops caused by the new buildings cannot be directly subtracted from the correct peasant category to arrive at the original pop count
+#		for more precise information see the #Regime changes in the pops file for Amsterdam, Stuttgart, and Cassel
