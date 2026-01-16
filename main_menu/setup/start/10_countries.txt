@@ -8822,26 +8822,27 @@ countries = {
 	}
 
 	#---------------------------- Italy --------------------------------
-	PST = {  # Pistoia (Italy)
-		own_control_core = {
-			pistoia
-		}
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		include = "regime_hre_society_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-		country_rank = rank_county
-		capital = pistoia
-	}
+#Regime Change
+#	#r_PST = {  # Pistoia (Italy)
+#		own_control_core = {
+#			pistoia
+#		}
+#		starting_technology_level = 3
+#		include = "expl_mediterranean"
+#		include = "expl_silk_road_west"
+#		include = "expl_silk_road_center"
+#		include = "expl_silk_road_east"
+#		include = "expl_indian_trade_route"
+#		include = "catholic_republic_no_coast"
+#		include = "regime_hre_society_no_coast"
+#		government = {
+#			type = republic
+#			heir_selection = oligarchic_elective
+#			ruler = random
+#		}
+#		country_rank = rank_county
+#		capital = pistoia
+#	}
 
 	ABA = {
 		own_control_core = {
@@ -9596,41 +9597,41 @@ countries = {
 		}
 		capital = ajaccio
 	}
+		#Regime Change
+#	#r_COT = {
+#		own_control_core = {
+#			cortona
+#		}
 
-	COT = {
-		own_control_core = {
-			cortona
-		}
+#		starting_technology_level = 3
+#		include = "expl_mediterranean"
+#		include = "expl_silk_road_west"
+#		include = "expl_silk_road_center"
+#		include = "expl_silk_road_east"
+#		include = "expl_indian_trade_route"
+#		include = "catholic_republic_no_coast"
+#		include = "regime_hre_society_no_coast"
+#		government = {
+#			type = republic
+#			heir_selection = podesta_elective
 
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		include = "regime_hre_society_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
+#			reforms = {
+#				signoria_reform
+#			}
+#			ruler = cot_ranieri_ii_casali
 
-			reforms = {
-				signoria_reform
-			}
-			ruler = cot_ranieri_ii_casali
+#			ruler_term = { character = cot_ranieri_ii_casali start_date = 1325.1.1 regnal_number = 2 }
 
-			ruler_term = { character = cot_ranieri_ii_casali start_date = 1325.1.1 regnal_number = 2 }
+#		}
 
-		}
+#		tolerated_cultures = {
+#			median
+#		}
 
-		tolerated_cultures = {
-			median
-		}
-
-		country_rank = rank_county
-		capital = cortona
-		dynasty = casali_dynasty
-	}
+#		country_rank = rank_county
+#		capital = cortona
+#		dynasty = casali_dynasty
+#	}
 
 	CRM = {
 		our_cores_conquered_by_others = {
@@ -9849,10 +9850,12 @@ countries = {
 		dynasty = deste_dynasty
 		dynasty = ramberti_dynasty
 	}
-
+		#Regime Change
 	FLO = { #Florence
 		own_control_core = {
 			florence mangona poggibonsi sanlorenzo
+			cortona sansepolcro
+			prato pistoia
 		}
 
 		own_control_conquered = {
@@ -11109,15 +11112,15 @@ countries = {
 		capital = pavia
 		dynasty = beccaria_dynasty
 	}
-
+		#Regime Change
 	PEA = {
 		own_control_core = {
 			marsciano perugia
 		}
 
-		own_control_conquered = {
-			sansepolcro
-		}
+#		own_control_conquered = {
+#			sansepolcro
+#		}
 
 		starting_technology_level = 3
 		include = "expl_mediterranean"
@@ -11257,40 +11260,40 @@ countries = {
 		dynasty = gherardesca_dynasty
 
 	}
+		#Regime Change
+#	#r_PRA = {
+#		own_control_core = {
+#			prato
+#		}
 
-	PRA = {
-		own_control_core = {
-			prato
-		}
+#		starting_technology_level = 3
+#		include = "expl_mediterranean"
+#		include = "expl_silk_road_west"
+#		include = "expl_silk_road_center"
+#		include = "expl_silk_road_east"
+#		include = "expl_indian_trade_route"
+#		include = "catholic_republic_no_coast"
+#		include = "regime_hre_society_no_coast"
+#		government = {
+#			type = republic
+#			heir_selection = podesta_elective
 
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_no_coast"
-		include = "regime_hre_society_no_coast"
-		government = {
-			type = republic
-			heir_selection = podesta_elective
+#			reforms = {
+#				signoria_reform
+#			}
 
-			reforms = {
-				signoria_reform
-			}
+#			ruler = nap_robert_i_anjou
+#			consort = nap_sancha_aragon
+#			heir = nap_giovanna_i_anjou
+#		}
 
-			ruler = nap_robert_i_anjou
-			consort = nap_sancha_aragon
-			heir = nap_giovanna_i_anjou
-		}
+#		tolerated_cultures = {
+#			emilian
+#		}
 
-		tolerated_cultures = {
-			emilian
-		}
-
-		country_rank = rank_county
-		capital = prato
-	}
+#		country_rank = rank_county
+#		capital = prato
+#	}
 
 	RAV = {
 		own_control_core = {
@@ -11837,27 +11840,27 @@ countries = {
 		capital = pitigliano
 		dynasty = orsini_dynasty
 	}
+		#Regime Change
+#	#r_SSP = {
+#		our_cores_conquered_by_others = {
+#			sansepolcro
+#		}
 
-	SSP = {
-		our_cores_conquered_by_others = {
-			sansepolcro
-		}
-
-		starting_technology_level = 3
-		include = "expl_mediterranean"
-		include = "expl_silk_road_west"
-		include = "expl_silk_road_center"
-		include = "expl_silk_road_east"
-		include = "expl_indian_trade_route"
-		include = "catholic_republic_not_present"
-		include = "regime_hre_society_no_coast"
-		government = {
-			type = republic
-			heir_selection = oligarchic_elective
-			ruler = random
-		}
-		capital = sansepolcro
-	}
+#		starting_technology_level = 3
+#		include = "expl_mediterranean"
+#		include = "expl_silk_road_west"
+#		include = "expl_silk_road_center"
+#		include = "expl_silk_road_east"
+#		include = "expl_indian_trade_route"
+#		include = "catholic_republic_not_present"
+#		include = "regime_hre_society_no_coast"
+#		government = {
+#			type = republic
+#			heir_selection = oligarchic_elective
+#			ruler = random
+#		}
+#		capital = sansepolcro
+#	}
 
 	TNT = {
 		own_control_core = {
