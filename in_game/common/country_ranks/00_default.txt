@@ -4,6 +4,7 @@
 	rank_modifier = {
 		max_diplomats = 2
 		diplomatic_range = 1000
+		#Regime Change
 		great_power_score_exempt_from_forfeit = 125
 		
 		num_possible_rivals = 4
@@ -50,6 +51,7 @@ rank_kingdom = {
 	rank_modifier = {
 		max_diplomats = 1
 		diplomatic_range = 500
+		#Regime Change
 		great_power_score_exempt_from_forfeit = 75
 		
 		num_possible_rivals = 3
@@ -84,6 +86,7 @@ rank_kingdom = {
 rank_duchy = {
 	color = color_rank_duchy
 	rank_modifier = {
+		#Regime Change
 		great_power_score_exempt_from_forfeit = 25
 		
 		diplomatic_range = 200

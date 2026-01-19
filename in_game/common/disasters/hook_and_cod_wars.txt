@@ -27,6 +27,7 @@
     }
     modifier = {
 		monthly_rebel_growth = 0.02
+        #Regime Change
 		global_crown_estate_power = -0.1
 		global_estate_target_satisfaction = small_permanent_target_satisfaction_penalty
     }

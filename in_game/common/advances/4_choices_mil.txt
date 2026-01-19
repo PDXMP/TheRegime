@@ -425,7 +425,7 @@ land_morale_movement_cost_rev_choice_mil = {
 	
 	for = mil
 
-	
+	#Regime Change
 	land_morale_movement_cost = -0.0012
 }
 

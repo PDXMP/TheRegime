@@ -4,6 +4,7 @@
 	buildable = yes
 	
 	hull_size = 40
+	#Regime Change
 	#cannons = 80
 	maritime_presence = ship_medium_maritime
 

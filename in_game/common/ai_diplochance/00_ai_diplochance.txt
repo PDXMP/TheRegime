@@ -54,7 +54,7 @@ offerloan = {
 	too_many_loans = -1000
 	good_interest_rate = 500 # = 5 points per percentage point of interest rate
 }
-
+#Regime Change
 sell_location = {
 	# Be careful. Unwanted locations can be a huge burden
 	#how much they want to sell the location
@@ -119,12 +119,14 @@ enforce_peace = {
 	relative_strength = 30
 	royal_ties = 10
 }
-
+#Regime Change
 threaten_war = {
+	#yesman = 10000
+	#relative_strength = 40
 	capital = -100
 	location_value = -1000
 }
-
+#Regime Change
 demand_access = {
 }
 

@@ -82,6 +82,7 @@ flavor_bra_dynasty.1 = {
 	}
 	trigger = {
 		bra_ruled_by_wittelsbacher_trigger = yes
+		#Regime Change
 		always = no
 	}
 	immediate = {

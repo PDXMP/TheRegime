@@ -7,6 +7,6 @@ cb_hegemon = {
 		is_hegemon = no
 		scope:target = { is_hegemon = yes }
 	}
-
+	#Regime Change
 	war_goal_type = superiority_livonian_wars
 }

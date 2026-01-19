@@ -2,6 +2,7 @@
 	potential = { has_or_had_tag = HUN }
 
 	age = age_1_traditions
+	#Regime Change
 	army_cavalry_power = 0.1
 
 	requires = feudalism_advance
@@ -22,6 +23,7 @@ hun_multi_culturalism = {
 	potential = { has_or_had_tag = HUN }
 	
 	age = age_2_renaissance
+	#Regime Change
 	cultures_capacity = 1
 	add_accepted_culture_cost_modifier = -0.1
 	requires = global_nobles_max_literacy_advance

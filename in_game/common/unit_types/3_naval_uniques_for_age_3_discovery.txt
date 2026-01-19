@@ -3,7 +3,7 @@
 	copy_from = n_age_3_discovery_heavy_ship
 	upgrades_to = n_iberian_galleon
 	buildable = yes
-	
+	#Regime Change
 	#movement_speed = 7
 	hull_size = 30
 	#cannons = 60

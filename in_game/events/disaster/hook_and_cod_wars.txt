@@ -125,6 +125,7 @@ hook_and_cod_wars.1 = {
 						owner = root
 						pop_type = pop_type:peasants
 					}
+					#Regime Change
 					add_pop_satisfaction = pop_satisfaction_mild_penalty
 				}
 			}
@@ -285,6 +286,7 @@ hook_and_cod_wars.3 = {
 					owner = root
 					pop_type = pop_type:nobles
 				}
+				#Regime Change
 				add_pop_satisfaction = pop_satisfaction_mild_penalty
 				change_pop_allegiance = scope:hacw_nobility_rebellion
 			}
@@ -359,6 +361,7 @@ hook_and_cod_wars.4 = {
 					owner = root
 					pop_type = pop_type:burghers
 				}
+				#Regime Change
 				add_pop_satisfaction = pop_satisfaction_mild_penalty
 				change_pop_allegiance = scope:hacw_burghers_rebellion
 			}
@@ -1113,6 +1116,7 @@ scripted_effect hacw_side_with_faction_effect_hook = {
 				limit = {
 					owner = root
 				}
+				#Regime Change
 				add_pop_satisfaction = pop_satisfaction_mild_penalty
 				change_pop_allegiance = scope:hacw_cod_faction
 			}
@@ -1123,6 +1127,7 @@ scripted_effect hacw_side_with_faction_effect_hook = {
 				limit = {
 					owner = root
 				}
+				#Regime Change
 				add_pop_satisfaction = pop_satisfaction_mild_penalty
 			}
 		}
@@ -1146,6 +1151,7 @@ scripted_effect hacw_side_with_faction_effect_cod = {
 				limit = {
 					owner = root
 				}
+				#Regime Change
 				add_pop_satisfaction = pop_satisfaction_mild_penalty
 				change_pop_allegiance = scope:hacw_hook_faction
 			}
@@ -1156,6 +1162,7 @@ scripted_effect hacw_side_with_faction_effect_cod = {
 				limit = {
 					owner = root
 				}
+				#Regime Change
 				add_pop_satisfaction = pop_satisfaction_mild_penalty
 			}
 		}
