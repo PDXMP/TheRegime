@@ -69,7 +69,7 @@ east_india_trading_company = {
 
 	years = 2
 }
-
+#Regime Change
 #admiralty_regime_reform = {
 #	age = age_3_discovery
 #	major = yes
@@ -108,6 +108,7 @@ military_regime_reform = {
 	}
 
 	allow = {
+		#Regime Change
 		#NOT = { has_reform = government_reform:admiralty_regime_reform }
 	}
 	

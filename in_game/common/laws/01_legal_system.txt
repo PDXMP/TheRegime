@@ -93,6 +93,7 @@
 		}
 		country_modifier = {
 			monthly_towards_decentralization = societal_value_monthly_move
+			#Regime Change
 			peasants_estate_levy_size = 0.02
 			global_estate_target_satisfaction = medium_permanent_target_satisfaction
 			global_max_control = -0.1
@@ -126,7 +127,7 @@
 		potential = {
 			OR = {
 				culture = { has_culture_group = culture_group:pyrenean_group }
-				tag = ARA
+				has_or_had_tag = ARA
 			}
 		}
 		allow = {			
@@ -164,7 +165,7 @@
 	pskov_judicial_charter_policy = {
 		unique = yes
 		potential = {
-			tag = PSK
+			has_or_had_tag = PSK
 		}
 		allow = {
 			has_embraced_institution = institution:legalism
@@ -203,9 +204,9 @@
 		potential = {
 			has_unlocked_policy_trigger = { type = bav_codex_bavarica }
 			OR = {
-				tag = BAV
-				tag = UBV
-				tag = LBV
+				has_or_had_tag = BAV
+				has_or_had_tag = UBV
+				has_or_had_tag = LBV
 			}
 		}
 		allow = {
@@ -228,7 +229,7 @@
 	cyfraith_hywel_policy = {
 		potential = {
 			OR = {
-				tag = WLS
+				has_or_had_tag = WLS
 				culture = culture:welsh
 			}
 		}
@@ -333,7 +334,7 @@
 	maiestas_carolina = {
 		unique = yes
 		potential = {
-			tag = BOH
+			has_or_had_tag = BOH
 			has_unlocked_policy_trigger = { type = maiestas_carolina }
 		}
 		allow = {
@@ -341,6 +342,7 @@
 		}
 		country_modifier = {
 			monthly_towards_centralization = societal_value_monthly_move
+			#Regime Change
 			global_distance_from_capital_cost_modifier = -0.05
 			global_nobles_estate_power = -0.25
 			nobles_estate_target_satisfaction = medium_permanent_target_satisfaction_penalty
@@ -548,8 +550,8 @@
 		allow = {
 			OR = {
 				overlord ?= {
-					tag = CAS
-					tag = SPA
+					has_or_had_tag = CAS
+					has_or_had_tag = SPA
 				}
 				culture = culture:castilian
 			}
@@ -576,8 +578,8 @@
 		allow = {
 			OR = {
 				overlord ?= {
-					tag = CAS
-					tag = SPA
+					has_or_had_tag = CAS
+					has_or_had_tag = SPA
 				}
 				culture = culture:castilian
 			}
@@ -599,8 +601,8 @@
 		}
 		allow = {
 			OR = {
-				tag = CAS
-				tag = SPA
+				has_or_had_tag = CAS
+				has_or_had_tag = SPA
 				culture = culture:castilian
 			}
 		}
@@ -623,8 +625,8 @@
 		}
 		allow = {
 			OR = {
-				tag = CAS
-				tag = SPA
+				has_or_had_tag = CAS
+				has_or_had_tag = SPA
 				culture = culture:castilian
 			}
 		}
@@ -691,7 +693,7 @@
 	tur_kanum_i_osmani = {
 		unique = yes
 		potential = {
-			tag = TUR
+			has_or_had_tag = TUR
 		}
 		
 		country_modifier = {

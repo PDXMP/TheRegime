@@ -69,6 +69,7 @@ maj_sumpah_palapa = {
 	}
 	requires = maj_late_karambit_warriors
 	
+	#Regime Change
 	land_morale_movement_cost = -0.0012
 	land_morale_modifier = 0.1
 }

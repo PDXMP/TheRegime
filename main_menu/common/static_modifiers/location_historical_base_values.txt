@@ -2,6 +2,7 @@
 	game_data = {
 		category = location
 	}
+	#Regime Change
 	local_silver_output_modifier = 0
 }
 
@@ -178,6 +179,7 @@ kutna_hora_silver_mines_base = {
 	game_data = {
 		category = location
 	}
+	#Regime Change
 	local_silver_output_modifier = 0
 }
 
@@ -199,6 +201,7 @@ kremnica_gold_mines = {
 	game_data = {
 		category = location
 	}
+	#Regime Change
 	local_goods_gold_output_modifier = 0
 }
 

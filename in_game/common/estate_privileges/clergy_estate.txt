@@ -34,6 +34,7 @@ clergy_strengthen_faith = {
 		tolerance_heretic = -0.2
 		tolerance_heathen = -0.2
 		global_clergy_estate_power = 0.20
+		#Regime Change
 		monthly_towards_communalism = societal_value_monthly_move
 
 	}

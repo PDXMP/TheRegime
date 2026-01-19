@@ -894,6 +894,7 @@ french_feudal_nobility = { # French Feudalism
 	country_modifier = {
 		has_appanages_subjects = yes
 		diplomatic_capacity = 1
+		#Regime Change
 		#cultures_capacity = 2
 		monthly_towards_serfdom = societal_value_large_monthly_move
 		monthly_towards_aristocracy = societal_value_monthly_move

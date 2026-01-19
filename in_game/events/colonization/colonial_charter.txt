@@ -671,6 +671,7 @@ colonial_charter.100 = {
 			}
 		}
 	}
+	#Regime Change delete option of switching to colony
 
 	option = {
 		name = colonial_charter.100.b
@@ -812,4 +813,3 @@ colonial_charter.200 = {
 		}
 	}
 }
-
