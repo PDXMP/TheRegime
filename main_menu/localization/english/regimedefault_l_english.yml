@@ -3,3 +3,4 @@
  r_pier_desc: "A low structure built at the edge of water, used especially for getting into and out of boats."
  r_pier_advance: "Pier"
  r_pier_advance_desc: "$r_pier_desc$"
+ noasiacolonize_modifier: "No Asian Colonization"
