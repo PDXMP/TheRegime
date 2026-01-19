@@ -4,6 +4,6 @@ noasiacolonize_modifier = {
     local_migration_speed = -10
     local_migration_speed_modifier = -100
     local_population_growth = -10
-    local_population_capacity = -100000
+    local_population_capacity = -1000
     local_population_capacity_modifier = -100
 }
