@@ -23,7 +23,7 @@ REPLACE:goods_gold = {
 
 	# Regime Changes
 	default_market_price = 7.5 #-25%, nerf
-	transport_cost = 0.5 # -50%, buff
+	#transport_cost = 0.5 # -50%, buff
 }
 
 
@@ -48,5 +48,5 @@ REPLACE:silver = {
 
 	# Regime Changes
 	default_market_price = 6 #-25%, nerf
-	transport_cost = 0.5 # -50%, buff
+	#transport_cost = 0.5 # -50%, buff
 }
