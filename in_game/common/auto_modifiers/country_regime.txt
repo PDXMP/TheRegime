@@ -1,0 +1,6 @@
+
+# doing it this way lets us do alterations to the original values that get added together to the vanilla values 
+country_base_values_regime = {
+	global_goods_gold_output_modifier = -0.5
+	global_silver_output_modifier = -0.5
+}
