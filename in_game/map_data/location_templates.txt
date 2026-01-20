@@ -17159,7 +17159,8 @@ garacad = { topography = flatland vegetation = sparse climate = arid religion = 
 harardhere = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = somali_culture raw_material = fish natural_harbor_suitability = 0.00}
 mareeg = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = somali_culture raw_material = fruit natural_harbor_suitability = 0.00}
 warsheikh = { topography = flatland vegetation = sparse climate = arid religion = sunni culture = somali_culture raw_material = livestock natural_harbor_suitability = 0.00}
-mogadishu = { topography = flatland vegetation = farmland climate = arid religion = sunni culture = somali_culture raw_material = ivory natural_harbor_suitability = 0.00}
+#Regime Change Natural Harbor from 0.00 to 0.75
+mogadishu = { topography = flatland vegetation = farmland climate = arid religion = sunni culture = somali_culture raw_material = ivory natural_harbor_suitability = 0.75}
 barawa = { topography = flatland vegetation = grasslands climate = arid religion = sunni culture = somali_culture raw_material = livestock natural_harbor_suitability = 0.00}
 haranka = { topography = flatland vegetation = grasslands climate = tropical religion = sunni culture = somali_culture raw_material = sand natural_harbor_suitability = 0.00}
 merca = { topography = flatland vegetation = grasslands climate = arid religion = sunni culture = somali_culture raw_material = salt natural_harbor_suitability = 0.00}
@@ -17383,7 +17384,8 @@ west_lomwe = { topography = flatland vegetation = forest climate = subtropical r
 kisimani_mafia = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fish natural_harbor_suitability = 0.00}
 kisiju = { topography = flatland vegetation = jungle climate = tropical religion = bantu_religion culture = matuumbi_culture raw_material = cotton natural_harbor_suitability = 0.00}
 mitimiri = { topography = wetlands vegetation = jungle climate = tropical religion = sunni culture = matuumbi_culture raw_material = millet natural_harbor_suitability = 0.00}
-kilwa_kisiwani = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = matuumbi_culture raw_material = fish natural_harbor_suitability = 0.50}
+#Regime Change Natural Harbor from 0.50 to 1.00
+kilwa_kisiwani = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = matuumbi_culture raw_material = fish natural_harbor_suitability = 1.00}
 east_ngindo = { topography = flatland vegetation = forest climate = tropical religion = bantu_religion culture = matuumbi_culture raw_material = legumes}
 songo_mnara = { topography = flatland vegetation = jungle climate = tropical religion = bantu_religion culture = matuumbi_culture raw_material = legumes natural_harbor_suitability = 0.00}
 kutu = { topography = flatland vegetation = jungle climate = tropical religion = bantu_religion culture = ruvu_culture raw_material = rice}
@@ -17426,7 +17428,8 @@ north_yao = { topography = flatland vegetation = forest climate = tropical relig
 nyanja = { topography = hills vegetation = forest climate = tropical religion = bantu_religion culture = chewa_culture raw_material = fish}
 west_yao = { topography = hills vegetation = forest climate = subtropical religion = bantu_religion culture = yao_culture raw_material = stone}
 lamu = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fish natural_harbor_suitability = 0.00}
-ungwana = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fish natural_harbor_suitability = 0.00}
+#Regime Change Natural Harbor from 0.00 to 0.45
+ungwana = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fish natural_harbor_suitability = 0.45}
 pate = { topography = wetlands vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = cotton natural_harbor_suitability = 0.00}
 rasini = { topography = flatland vegetation = woods climate = tropical religion = sunni culture = somali_culture raw_material = lumber natural_harbor_suitability = 0.00}
 mombasa = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = cotton natural_harbor_suitability = 0.00}
@@ -17445,7 +17448,8 @@ south_dahalo = { topography = flatland vegetation = grasslands climate = arid re
 wenje = { topography = flatland vegetation = grasslands climate = arid religion = asis_religion culture = kalenjin_culture raw_material = livestock}
 tanga = { topography = flatland vegetation = jungle climate = tropical religion = bantu_religion culture = swahili_culture raw_material = fiber_crops natural_harbor_suitability = 0.00}
 mkwaja = { topography = wetlands vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fish natural_harbor_suitability = 0.00}
-pangani = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = rice natural_harbor_suitability = 0.00}
+#Regime Change Natural Harbor from 0.00 to 0.45
+pangani = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = rice natural_harbor_suitability = 0.45}
 usambara = { topography = mountains vegetation = grasslands climate = oceanic religion = bantu_religion culture = seuta_culture raw_material = rice}
 vumba_kuu = { topography = flatland vegetation = jungle climate = tropical religion = bantu_religion culture = swahili_culture raw_material = livestock natural_harbor_suitability = 0.00}
 zigula = { topography = plateau vegetation = grasslands climate = tropical religion = bantu_religion culture = seuta_culture raw_material = rice}
@@ -17462,7 +17466,8 @@ burunge = { topography = hills vegetation = grasslands climate = arid religion =
 idodomya = { topography = plateau vegetation = grasslands climate = arid religion = bantu_religion culture = ruvu_culture raw_material = livestock}
 mpwapwa = { topography = hills vegetation = grasslands climate = arid religion = bantu_religion culture = ruvu_culture raw_material = livestock}
 sandawe = { topography = hills vegetation = grasslands climate = arid religion = kaggen_religion culture = sandawe_culture raw_material = gems}
-zanzibar = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fruit natural_harbor_suitability = 0.40}
+#Regime Change Natural Harbor from 0.40 to 0.75
+zanzibar = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fruit natural_harbor_suitability = 0.75}
 dar_es_salaam = { topography = flatland vegetation = jungle climate = tropical religion = bantu_religion culture = swahili_culture raw_material = fruit natural_harbor_suitability = 0.00}
 ras_mkumbuu = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = swahili_culture raw_material = fish natural_harbor_suitability = 0.00}
 pemba_island = { topography = coastal_ocean climate = tropical}
@@ -17522,23 +17527,29 @@ manambato = { topography = mountains vegetation = jungle climate = tropical reli
 talaky = { topography = flatland vegetation = sparse climate = arid religion = fomba_gasy_religion culture = tandroy_culture raw_material = fish natural_harbor_suitability = 0.00}
 tsiveri = { topography = hills vegetation = grasslands climate = tropical religion = fomba_gasy_religion culture = tandroy_culture raw_material = rice}
 vohipeno = { topography = flatland vegetation = jungle climate = tropical religion = sunni culture = zafiraminia_culture raw_material = saffron natural_harbor_suitability = 0.00}
-ikongo = { topography = hills vegetation = jungle climate = subtropical religion = fomba_gasy_religion culture = tanala_culture raw_material = wild_game}
+#Regime Change wild game now coffee
+ikongo = { topography = hills vegetation = jungle climate = subtropical religion = fomba_gasy_religion culture = tanala_culture raw_material = coffee}
 manabondro = { topography = hills vegetation = jungle climate = tropical religion = sunni culture = antaisaka_culture raw_material = fruit natural_harbor_suitability = 0.00}
-masindrano = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = antambahoaka_culture raw_material = beeswax natural_harbor_suitability = 0.00}
+#Regime Change beeswax is now coffee
+masindrano = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = antambahoaka_culture raw_material = coffee natural_harbor_suitability = 0.00}
 rasanga = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = antaifasy_culture raw_material = fish natural_harbor_suitability = 0.00}
-maroantsetra = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fish natural_harbor_suitability = 0.00}
-antalaha = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fruit natural_harbor_suitability = 0.00}
+#Regime Change Natural Harbor from 0.00 to 0.25 and fish to cloves
+maroantsetra = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = cloves natural_harbor_suitability = 0.25}
+#Regime Change fruit to cloves
+antalaha = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = cloves natural_harbor_suitability = 0.00}
 bemanevika = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = saffron natural_harbor_suitability = 0.00}
 fahambahy = { topography = plateau vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = saffron natural_harbor_suitability = 0.00}
 fenoarivo_east = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fruit natural_harbor_suitability = 0.00}
-sandrakatsy = { topography = plateau vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fish natural_harbor_suitability = 0.00}
+#Regime Change fish to cloves
+sandrakatsy = { topography = plateau vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = cloves natural_harbor_suitability = 0.00}
 tintingue = { topography = plateau vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fish natural_harbor_suitability = 0.00}
 toamasina = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = lumber natural_harbor_suitability = 0.00}
 manahoro = { topography = plateau vegetation = jungle climate = subtropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fruit natural_harbor_suitability = 0.00}
 andevoranto = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = saffron natural_harbor_suitability = 0.00}
 mahaela = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = saffron natural_harbor_suitability = 0.00}
 vatomandry = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = betsimisaraka_culture raw_material = fish natural_harbor_suitability = 0.00}
-fianarantsoa = { topography = hills vegetation = forest climate = continental religion = fomba_gasy_religion culture = betsileo_culture raw_material = rice}
+#Regime Change rice is now coffee
+fianarantsoa = { topography = hills vegetation = forest climate = continental religion = fomba_gasy_religion culture = betsileo_culture raw_material = coffee}
 ambositra = { topography = mountains vegetation = forest climate = continental religion = fomba_gasy_religion culture = vazimba_culture raw_material = stone}
 ikalamavony = { topography = hills vegetation = forest climate = subtropical religion = fomba_gasy_religion culture = vazimba_culture raw_material = lumber}
 midongy = { topography = hills vegetation = forest climate = subtropical religion = fomba_gasy_religion culture = bara_culture raw_material = iron}
@@ -17557,24 +17568,31 @@ ankazobe = { topography = hills vegetation = forest climate = subtropical religi
 antsiroamandidy = { topography = plateau vegetation = forest climate = tropical religion = fomba_gasy_religion culture = merina_culture raw_material = livestock}
 fenoarivo = { topography = plateau vegetation = forest climate = tropical religion = fomba_gasy_religion culture = merina_culture raw_material = livestock}
 kavitaha = { topography = plateau vegetation = forest climate = subtropical religion = fomba_gasy_religion culture = merina_culture raw_material = fruit}
-vohimasina = { topography = mountains vegetation = forest climate = continental religion = fomba_gasy_religion culture = vazimba_culture raw_material = rice}
+#Regime Change rice is now coffee
+vohimasina = { topography = mountains vegetation = forest climate = continental religion = fomba_gasy_religion culture = vazimba_culture raw_material = coffee}
 nosy_bali = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = sugar natural_harbor_suitability = 0.00}
 andranomavo = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = livestock}
 besalampy = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = rice natural_harbor_suitability = 0.00}
 vilamatsa = { topography = wetlands vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = fish natural_harbor_suitability = 0.00}
 vohemar = { topography = hills vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = antankarana_culture raw_material = beeswax natural_harbor_suitability = 0.00}
 ambilobe = { topography = wetlands vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = antankarana_culture raw_material = sugar natural_harbor_suitability = 0.00}
-irodo = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = antankarana_culture raw_material = fish natural_harbor_suitability = 0.00}
-boeny = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = rice natural_harbor_suitability = 0.00}
-andranoboka = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = rice natural_harbor_suitability = 0.00}
+#Regime Change Natural Harbor from 0.00 to 0.50 fish to pepper
+irodo = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = antankarana_culture raw_material = pepper natural_harbor_suitability = 0.50}
+#Regime Change Natural Harbor from 0.00 to 0.50
+boeny = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = rice natural_harbor_suitability = 0.50}
+#Regime Change Natural Harbor from 0.00 to 0.75
+andranoboka = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = rice natural_harbor_suitability = 0.75}
 antetikala = { topography = wetlands vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = fish natural_harbor_suitability = 0.00}
-antsohihy = { topography = wetlands vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = fruit natural_harbor_suitability = 0.00}
+#Regime Change fruit to pepper
+antsohihy = { topography = wetlands vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = pepper natural_harbor_suitability = 0.00}
 kingany = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = fish natural_harbor_suitability = 0.00}
-mahilaka = { topography = mountains vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = lumber natural_harbor_suitability = 0.00}
+#Regime Change lumber to pepper
+mahilaka = { topography = mountains vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = pepper natural_harbor_suitability = 0.00}
 mahajanga = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = fish natural_harbor_suitability = 0.00}
 marovoay = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = fish}
 nosy_be = { topography = mountains vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = sugar natural_harbor_suitability = 0.00}
-sada = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = sugar natural_harbor_suitability = 0.00}
+#Regime Change Natural Harbor from 0.00 to 0.25
+sada = { topography = flatland vegetation = jungle climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = sugar natural_harbor_suitability = 0.25}
 maevatanana = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = sugar}
 ambalanjakomby = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = lumber}
 ambolosy = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = lumber}
@@ -17583,9 +17601,12 @@ manoninerina = { topography = plateau vegetation = forest climate = tropical rel
 tsarahafatra = { topography = hills vegetation = forest climate = subtropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = beeswax}
 manditsara = { topography = hills vegetation = forest climate = tropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = lead}
 bealanana = { topography = hills vegetation = forest climate = continental religion = fomba_gasy_religion culture = tsimihety_culture raw_material = copper}
-befandriana = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = lumber}
-bengoala = { topography = mountains vegetation = forest climate = subtropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = stone}
-tsaratanana = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = lumber}
+#Regime Change lumber to pepper
+befandriana = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = pepper}
+#Regime Change stone to pepper
+bengoala = { topography = mountains vegetation = forest climate = subtropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = pepper}
+#Regime Change lumber to pepper
+tsaratanana = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = tsimihety_culture raw_material = pepper}
 sahadia = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = livestock natural_harbor_suitability = 0.00}
 ankavandra = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = livestock}
 beanka = { topography = flatland vegetation = forest climate = tropical religion = fomba_gasy_religion culture = sakalava_culture raw_material = fruit}
