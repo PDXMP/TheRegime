@@ -430,7 +430,7 @@ international_organization_manager = {
 		}
 		leader = MLO
 	}
-
+		#Regime Change
 	#################################################################
 	# 				Ilkhanate										#
 	#################################################################
@@ -440,9 +440,9 @@ international_organization_manager = {
 		members = { 
 			#Borjigid Faction
 
-			GRG MZN HDN QOM KSA ASR JKR SFR SBZ KHT
+			GRG MZN HDN QOM KSA ASR SFR SBZ KHT #JKR
 			BDS #Baduspanids
-			KRT MRV KHF #Kartids
+			KRT #MRV KHF #Kartids
 			HLG #Huleguids
 
 			#Jalayirid Faction
@@ -456,7 +456,7 @@ international_organization_manager = {
 			GEO AAI SKI SME #Georgia
 			INJ KHU #Injuids
 			MKR BMP BLA KLW #Makran
-			ORM FAL JSK #Ormus
+			ORM JSK #FAL #Ormus
 			ATQ FMN HSN HZP JUR KHN KHZ KLA KRM LCK LHJ LST MIH MZF RNK RSH SHB SRB TLM UGH
 		}
 		
