@@ -22070,7 +22070,7 @@ countries = {
 	}
 
 	#-------------------------- East Africa ----------------------------
-
+	#Regime Change
 	#Kilwa Sultanate - ZAN
 	ZAN = {
 		own_control_core = {
@@ -22079,11 +22079,12 @@ countries = {
 
 			vumba_kuu tanga pangani mkwaja utondwe
 			tungi vamizi
-		}
-
-		own_control_integrated = {
 			somana ibo gomene memba nacala
 		}
+
+		 #own_control_integrated = {
+			#somana ibo gomene memba nacala
+		 #}
 
 		country_rank = rank_kingdom
 
@@ -22131,7 +22132,8 @@ countries = {
 			belligerent_vs_conciliatory = -50
 			quality_vs_quantity = 0
 			offensive_vs_defensive = -20
-			land_vs_naval = 25
+			#Regime Change made naval push 50 instead of 25
+			land_vs_naval = 50
 			capital_economy_vs_traditional_economy = -75
 			individualism_vs_communalism = -50
 			outward_vs_inward = -80
@@ -22177,10 +22179,12 @@ countries = {
 		religious_school = shafii_school
 		government = { mysticism_vs_jurisprudence = 20 }
 		
+		accepted_cultures = {
+			matuumbi_culture
+		}
 
 		tolerated_cultures = {
 			yao_culture
-			swahili_culture
 		}
 
 		currency_data = {
@@ -22224,11 +22228,11 @@ countries = {
 		country_rank = rank_kingdom
 		capital = pate
 	}
-
+		#Regime Change
 	#Malindi Sultanate - MLI (Vassal of Kilwa)
 	MLI = {
 		own_control_core = {
-			malindi
+			malindi mambrui
 		}
 
 		starting_technology_level = 3
@@ -22254,12 +22258,12 @@ countries = {
 
 		capital = malindi
 	}
-
+		#Regime Change
 	#Inhambane - INH
 	INH = {
 		own_control_core = {
 			inhambane
-			chibuene manyikeni
+			chibuene manyikeni mambone chongoene
 		}
 
 		starting_technology_level = 3
@@ -22273,11 +22277,12 @@ countries = {
 
 		capital = inhambane
 	}
-
+		#Regime Change
 	#Sofala Sultanate - SFA (Vassal of Mutapa) Influenced by Kilwa
 	SFA = {
 		own_control_core = {
-			sofala
+			sofala chiluane
+			chiveve
 		}
 
 		starting_technology_level = 3
@@ -22455,11 +22460,11 @@ countries = {
 
 		capital = zanzibar
 	}
-
+		#Regime Change
 	#Bambao Sultanate - BMB (Vassal of Kilwa)
 	BMB = {
 		own_control_core = {
-			ngazidja
+			ngazidja nzwani maore
 		}
 
 		starting_technology_level = 3
@@ -22480,39 +22485,40 @@ countries = {
 
 		capital = ngazidja
 	}
-
+		#Regime Change
 	#Angoche - AGH
-	AGH = { #https://en.wikipedia.org/wiki/Angoche
-		own_control_core = {
-			angoche
-		}
+#	AGH = { #https://en.wikipedia.org/wiki/Angoche
+#		own_control_core = {
+#			angoche
+#		}
 
-		starting_technology_level = 3
-		include = "expl_east_africa"
-		include = "subsaharan_muslim_monarchy"
-		government = {
-			type = monarchy
-			heir_selection = cognatic_primogeniture
-			ruler = random
+#		starting_technology_level = 3
+#		include = "expl_east_africa"
+#		include = "subsaharan_muslim_monarchy"
+#		government = {
+#			type = monarchy
+#			heir_selection = cognatic_primogeniture
+#			ruler = random
 
-			laws = {
-				sharia_law = shafii_policy
-			}
-		}
-		tolerated_cultures = {
-			makhuwa_culture
-		}
-		religious_school = shafii_school
-		government = { mysticism_vs_jurisprudence = 20 }
+#			laws = {
+#				sharia_law = shafii_policy
+#			}
+#		}
+#		tolerated_cultures = {
+#			makhuwa_culture
+#		}
+#		religious_school = shafii_school
+#		government = { mysticism_vs_jurisprudence = 20 }
 		
 
-		capital = angoche
-	}
-
+#		capital = angoche
+#	}
+		#Regime Change
 	#Quelimane - QLM
 	QLM = { #https://en.wikipedia.org/wiki/Quelimane
 		own_control_core = {
-			quelimane
+			quelimane macuze
+			chindre cuama
 		}
 
 		starting_technology_level = 3
@@ -22536,11 +22542,12 @@ countries = {
 
 		capital = quelimane
 	}
-
+		#Regime Change
 	#Mozambique Sultanate - MOZ (Vassal of Kilwa)
 	MOZ = {
 		own_control_core = {
-			mozambique
+			mozambique sangage angoche
+			moma bajone
 		}
 
 		starting_technology_level = 3
