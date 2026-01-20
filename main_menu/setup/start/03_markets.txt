@@ -65,10 +65,12 @@ market_manager = {
 	add_market = trebizond
 	add_market = tabriz
 	add_market = isfahan
-	add_market = nishapur
+#Regime Change
+#r_add_market = nishapur
 	add_market = hormuz
 	add_market = kabul
-	add_market = zaranj
+#Regime Change
+#r_add_market = zaranj
 	add_market = adan
 	add_market = mecca
 	add_market = al_ahsa
