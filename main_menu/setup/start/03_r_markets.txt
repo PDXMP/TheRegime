@@ -7,4 +7,7 @@ market_manager = {
 	add_market = geneve
 	add_market = kobenhavn
 
+	#Persia
+	add_market = rey
+	add_market = herat
 }
