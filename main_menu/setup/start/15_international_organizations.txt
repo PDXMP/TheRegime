@@ -478,7 +478,7 @@ international_organization_manager = {
 		ruler_term = { character = arpa_keun_borjigin start_date = 1335.12.1 end_date = 1336.5.15 regnal_number = 1 }
 
 	}
-
+		#Regime Change
 	 #################################################################
 	# 				Tatar Yoke										#
 	#################################################################
@@ -493,6 +493,7 @@ international_organization_manager = {
 			#Member
 			BLO DMI GLM KCH KOS MRM NSL NZH RSO RYA SKY SMO TRS TVE YAR YRV
 			FMB GRS KAS KLN KZK MOG MSV PRK SZL UGL VLR VYA ZUB
+			BRY RZH RYL STS NVS CHR KIE TRB
 		}
 		tatar_overlord = {
 			GLH
