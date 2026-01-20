@@ -471,20 +471,20 @@ diplomacy_manager = {
     dependency = { first = IFA second = HRL subject_type = vassal }
     dependency = { first = IFA second = WAR subject_type = tributary }
     dependency = { first = IFA second = TDE subject_type = tributary }
-
+	#Regime Change
     #Kilwa
-    dependency = { first = ZAN second = MLI subject_type = tributary }
-    dependency = { first = ZAN second = MBA subject_type = tributary }
-    dependency = { first = ZAN second = GED subject_type = tributary }
-    dependency = { first = ZAN second = PEM subject_type = tributary }
+    dependency = { first = ZAN second = MLI subject_type = vassal }
+    dependency = { first = ZAN second = MBA subject_type = vassal }
+    dependency = { first = ZAN second = GED subject_type = vassal }
+    dependency = { first = ZAN second = PEM subject_type = vassal }
     dependency = { first = ZAN second = NTL subject_type = tributary }
     dependency = { first = ZAN second = MTO subject_type = tributary }
     dependency = { first = ZAN second = AHY subject_type = tributary }
     dependency = { first = ZAN second = MHL subject_type = tributary }
     dependency = { first = ZAN second = VOH subject_type = tributary }
     dependency = { first = ZAN second = NYM subject_type = tributary }
-    dependency = { first = ZAN second = MOZ subject_type = tributary }
-    dependency = { first = ZAN second = ZZB subject_type = tributary }
+    dependency = { first = ZAN second = MOZ subject_type = vassal }
+    dependency = { first = ZAN second = ZZB subject_type = vassal }
 
     #Zimbabwe
     dependency = { first = ZMW second = KLG subject_type = tributary }
