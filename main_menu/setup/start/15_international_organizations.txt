@@ -409,6 +409,7 @@ international_organization_manager = {
 		}
 	}
 
+	#Regime Change
 	#################################################################
 	# 				Guelphs & Ghibellines							#
 	#################################################################
@@ -416,7 +417,8 @@ international_organization_manager = {
 		type = guelphs_io
 		creation_date = 1125.5.23
 		members = {
-			NAP PAP BLG PEA FLO ASD FER CNV CHX MND TTN IMO RAV FAE RIM ANC CMR PRA PTG SIE GUB MTA PES ATI
+			NAP PAP BLG PEA FLO ASD FER CNV CHX MND TTN IMO RAV FAE RIM ANC CMR PTG SIE GUB MTA PES ATI
+			#PRA
 		}
 		leader = NAP
 	}
