@@ -10731,7 +10731,7 @@ countries = {
 		include = "expl_silk_road_center"
 		include = "expl_silk_road_east"
 		include = "expl_indian_trade_route"
-		include = "catholic_monarchy"
+		include = "catholic_monarchy_no_auxilium"
 		government = {
 			type = monarchy
 			heir_selection = salic_law
@@ -10758,7 +10758,13 @@ countries = {
 			reforms = {
 				feudal_nobility
 			}
-
+			
+			privilege = {
+				#Nobles
+				monetary_fiefs
+				banal_lordship
+			}
+			
 			privilege = {
 				formal_guilds
 			}
