@@ -926,9 +926,9 @@ mesta_council_law = {
 
 	quadrillas_organization = {
 		country_modifier = {
-			global_wool_output_modifier = 0.25
-			nobles_estate_max_tax = 0.1
-			tax_income_efficiency = small_tax_income_efficiency_bonus
+			global_wool_output_modifier = 0.1
+			nobles_estate_max_tax = 0.025
+			#tax_income_efficiency = small_tax_income_efficiency_bonus
 		}
 		estate_preferences = {
 			nobles_estate
@@ -940,10 +940,10 @@ mesta_council_law = {
 		has_unlocked_policy_trigger = { type = right_of_possesion }
 	}
 		country_modifier = {
-			global_wool_output_modifier = 0.5
-			expand_rgo_farming_cost_modifier = 0.33
-			nobles_estate_max_tax = 0.1
-			tax_income_efficiency = medium_tax_income_efficiency_bonus
+			global_wool_output_modifier = 0.25
+			expand_rgo_farming_cost_modifier = 0.25
+			nobles_estate_max_tax = 0.05
+			#tax_income_efficiency = medium_tax_income_efficiency_bonus
 		}
 		estate_preferences = {
 			peasants_estate
