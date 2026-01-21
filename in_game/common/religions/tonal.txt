@@ -3,6 +3,8 @@
 	group = tonal_group
 
 	religious_aspects = 1
+	#Regime Change
+	#has_doom = yes
 	
 	definition_modifier = {
 		land_morale_modifier = 0.1

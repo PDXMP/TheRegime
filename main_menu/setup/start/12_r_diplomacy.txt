@@ -1,0 +1,17 @@
+diplomacy_manager = {
+    #-------Low Countries-------
+	#scripted_oneway = { first = HOL second = SBL type = guarantee }
+	
+    dependency = { first = HOL second = UTR subject_type = vassal }
+	
+	#-----Russia Region-----
+	dependency = { first = NOV second = TPS subject_type = vassal }
+	dependency = { first = TVE second = RZH subject_type = vassal }
+	
+	#-----East Africa-------
+	dependency = { first = ZAN second = INH subject_type = vassal }
+	dependency = { first = ZAN second = QLM subject_type = vassal }
+	dependency = { first = ZAN second = SFA subject_type = vassal }
+	dependency = { first = ZAN second = BMB subject_type = tributary }
+	
+}

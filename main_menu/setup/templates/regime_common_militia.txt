@@ -1,0 +1,13 @@
+government = {
+	#Estate Privileges
+	privilege = {	
+		#nobles
+
+		#burghers
+
+		#clergy
+
+		#commoners
+		peasants_allowed_weapons_privilege
+	}
+}

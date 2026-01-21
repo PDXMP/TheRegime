@@ -1,4 +1,5 @@
-﻿#admiralty_regime_heir_selection = {
+﻿#Regime Change
+#admiralty_regime_heir_selection = {
 #	#The succession is not through heirs or through elections but through military service
 #	#It is a meritocratic one, but only characters which serve as admiral right now are considered
 #	all_in_country = yes

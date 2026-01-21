@@ -183,7 +183,7 @@ country_base_values = {
 	parliament_request_issue_support_needed = 0.5
 	
 	diplomatic_reputation = 3
-	
+	#Regime Change
 	land_morale_movement_cost = 0.012
 	naval_morale_movement_cost = 0.0
 	
@@ -420,8 +420,8 @@ army_tradition = {
 	monthly_karma = -0.1
 	
 	monthly_towards_land = societal_value_monthly_move
-
-	great_power_score_exempt_from_forfeit = 10
+	#Regime Change
+	great_power_score_exempt_from_forfeit = 50
 }
 
 navy_tradition = {
@@ -434,8 +434,8 @@ navy_tradition = {
 	global_maritime_presence_modifier = 0.5
 	
 	monthly_towards_naval = societal_value_monthly_move
-
-	great_power_score_exempt_from_forfeit = 10
+	#Regime Change
+	great_power_score_exempt_from_forfeit = 50
 }
 
 
@@ -891,8 +891,8 @@ country_population = {
 
 country_control_scaled_population = {
 	scales_with = total_control_scaled_population
-
-	great_power_score = 0.05
+	#Regime Change
+	great_power_score = 0.01
 }
 
 
@@ -971,8 +971,8 @@ peasants_percentage_in_country = {
 total_merchant_capacity_impact = {
 	scales_with =  total_merchant_capacity
 
-
-	great_power_score = 0.05
+	#Regime Change
+	great_power_score = 0.01
 }
 
 monthly_income_impact = {
@@ -984,8 +984,8 @@ monthly_income_impact = {
 
 num_embraced_institutions = {
 	scales_with = num_embraced_institutions
-
-	great_power_score_exempt_from_forfeit = 10
+	#Regime Change
+	great_power_score_exempt_from_forfeit = 5
 }
 
 

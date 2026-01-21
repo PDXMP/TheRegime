@@ -586,5 +586,6 @@ land_morale_movement_cost_advance_disc = {
 	
 	requires = linked_armies_advance
 	
+	#Regime Change
 	land_morale_movement_cost = -0.0012
 }

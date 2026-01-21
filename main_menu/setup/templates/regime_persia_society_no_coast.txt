@@ -1,0 +1,5 @@
+government = {
+
+	#Societal Values
+	land_vs_naval = -50
+}

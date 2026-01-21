@@ -1,0 +1,34 @@
+#Vanilla techs
+##pan_amalgamation_advance = {
+##	age = age_4_reformation
+##	
+##	mercury_patio_max_level = 1
+##	global_mercury_output_modifier = 0.1
+##
+##	requires = pharmacology_advance
+##}
+#
+##patio_process_advance = {
+##	age = age_3_discovery
+##
+##	unlock_building = mercury_patio
+##	
+##	requires = surgery_advance
+##}
+#
+##Regime Versions 
+#REPLACE:pan_amalgamation_advance = {
+#	age = age_4_reformation
+#	
+#	unlock_building = mercury_patio
+#	global_mercury_output_modifier = 0.1
+#
+#	requires = pharmacology_advance
+#}
+#
+#REPLACE:patio_process_advance = {
+#	age = age_5_absolutism
+#
+#	mercury_patio_max_level = 1
+#	requires = lead_ore_dressing
+#}

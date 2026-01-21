@@ -95,9 +95,64 @@ setup_mod.1 = {
 						}	
 					}
 				}
+				hidden_effect = {
+				 sub_continent:east_asia = {
+					every_location_in_sub_continent = {
+						owner = { abandon_location = prev }
+						every_pop = {
+							destroy_pop = this
+						}
+					}
+				 }
+				 sub_continent:south_east_asia = {
+					every_location_in_sub_continent = {
+						owner = { abandon_location = prev }
+						every_pop = {
+							destroy_pop = this
+						}
+					}
+				 }
+#Jan 20 2026 - Readding India for Regime G2
+#				 sub_continent:south_asia = {
+#					every_location_in_sub_continent = {
+#						owner = { abandon_location = prev }
+#						every_pop = {
+#							destroy_pop = this
+#						}
+#					}
+#				 }
+				 continent:oceania = {
+					every_location_in_continent = {
+						owner = { abandon_location = prev }
+						every_pop = {
+							destroy_pop = this
+						}
+					}
+				 }
+				 sub_continent:east_asia = {
+                    every_location_in_sub_continent = {
+                        add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
+                    }
+				}
+				sub_continent:south_east_asia = {
+                    every_location_in_sub_continent = {
+                        add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
+                    }
+				}
+#Jan 20 2026 - Readding India for Regime G2
+#				sub_continent:south_asia = {
+#                    every_location_in_sub_continent = {
+#                        add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
+#                    }
+#				}
+				continent:oceania = {
+                    every_location_in_continent = {
+                        add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
+                    }
+				}
+				}
 			}
 		}
-}
 setup_mod.2 = {
 	type = country_event
 	title = hre.103.title
