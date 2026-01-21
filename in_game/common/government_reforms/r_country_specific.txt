@@ -19,3 +19,22 @@ mamluk_government = {
 	}
 	years = 2
 }
+
+
+r_mamluk_military_supremacy = {
+	unique = yes
+	major = no
+	potential = {  
+		has_or_had_tag = MAM
+	}
+	locked = {
+		NOT = { 
+			has_embraced_institution = institution:pike_and_shot
+		}
+	}
+	
+	country_modifier = {
+		peasants_estate_levy_size = -0.6
+	}
+	years = 2
+}
