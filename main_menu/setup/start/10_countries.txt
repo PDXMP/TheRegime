@@ -13713,7 +13713,7 @@ countries = {
 			palma ciudadela_de_menorca ibiza manacor pollensa #Kingdom of Mallorca
 			puigcerda prades #County of Cerdanya
 			perpignan #County of Roselló
-			montpellier #Lordship of Montpellier
+			#montpellier #Lordship of Montpellier
 		}
 
 		starting_technology_level = 3
@@ -14282,7 +14282,7 @@ countries = {
 			braine loudun
 			mauriac tour_auvergne saint_flour
 			montaigut herment
-
+			montpellier #Lordship of Montpellier
 			tours chinon loches chatillon_sur_indre #D. de Touraine
 
 			soissons crepy #Valois (Own by the ruler)
@@ -14296,7 +14296,7 @@ countries = {
 			#macon #C. de Macon
 			#beaujeu perreux trevoux #S.de Beaujeu
 			#lyon riverie #C. de Lyon
-			viviers # C. de Viviers
+			#viviers # C. de Viviers
 			nimes uzes melgueil
 			french_ales #S. Ales
 			chambon #B. de Combraille
@@ -15899,7 +15899,7 @@ countries = {
 	VLN = {
 		own_control_core = {
 			valence die privas montlaur condorcet
-
+			viviers # C. de Viviers
 			# own_control_integrated, but culture accepted
 			tournon #S. de Tournon
 		}
