@@ -13840,6 +13840,7 @@ countries = {
 				clergy_military_orders
 				#Commoners
 				ayuntamientos
+				no_labor_sunday
 				cas_caballeros_villanos
 			}
 
