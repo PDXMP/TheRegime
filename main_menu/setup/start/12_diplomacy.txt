@@ -159,42 +159,42 @@ diplomacy_manager = {
 	#scripted_oneway = { first = FRA second = SCO type = guarantee }
 	
     #Appanages
-    dependency = { first = FRA second = BUR subject_type = appanage }
+    #dependency = { first = FRA second = BUR subject_type = appanage }
     dependency = { first = FRA second = ALE subject_type = appanage }
-    dependency = { first = FRA second = AUV subject_type = appanage }
+    #dependency = { first = FRA second = AUV subject_type = appanage }
     dependency = { first = FRA second = BGN subject_type = appanage }
-    dependency = { first = FRA second = BOU subject_type = appanage }
-    dependency = { first = FRA second = AUX subject_type = appanage }
-    dependency = { first = FRA second = SAN subject_type = appanage }
+    #dependency = { first = FRA second = BOU subject_type = appanage }
+    #dependency = { first = FRA second = AUX subject_type = appanage }
+    #dependency = { first = FRA second = SAN subject_type = appanage }
     dependency = { first = FRA second = DRE subject_type = appanage }
     dependency = { first = FRA second = VDM subject_type = appanage }
     dependency = { first = FRA second = EVR subject_type = appanage }
     dependency = { first = FRA second = ETA subject_type = appanage }
     dependency = { first = FRA second = NRM subject_type = appanage }
     dependency = { first = FRA second = ANJ subject_type = appanage }
-    dependency = { first = FRA second = ARS subject_type = appanage }
+    #dependency = { first = FRA second = ARS subject_type = appanage }
     dependency = { first = FRA second = ANG subject_type = appanage }
 
     #Vassal, Fief Mouvant of France
     dependency = { first = FRA second = BRI subject_type = vassal }
     dependency = { first = FRA second = FOI subject_type = vassal }
     dependency = { first = FRA second = AMG subject_type = vassal }
-    dependency = { first = FRA second = FRZ subject_type = vassal }
-    dependency = { first = FRA second = BAR subject_type = vassal }
+    #dependency = { first = FRA second = FRZ subject_type = vassal }
+    #dependency = { first = FRA second = BAR subject_type = vassal }
     dependency = { first = FRA second = BLS subject_type = vassal }
     dependency = { first = FRA second = AST subject_type = vassal }
     dependency = { first = FRA second = COM subject_type = vassal }
     dependency = { first = FRA second = IJO subject_type = vassal }
     dependency = { first = FRA second = MRT subject_type = vassal }
-    dependency = { first = FRA second = VLN subject_type = vassal }
+    #dependency = { first = FRA second = VLN subject_type = vassal }
     dependency = { first = FRA second = PER subject_type = vassal }
     dependency = { first = FRA second = TON subject_type = vassal }
     dependency = { first = FRA second = MON subject_type = vassal }
     dependency = { first = FRA second = AUM subject_type = vassal }
-    dependency = { first = FRA second = ROU subject_type = vassal }
-    dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #Reined in as a vassal of France by the Treaty of Athis-sur-Orge in 1305, confirmed after the Battle of Cassel in 1328
-    dependency = { first = FRA second = NEV subject_type = vassal } #In a PU with FLA
-    dependency = { first = FRA second = RET subject_type = vassal } #In a PU with FLA
+    #dependency = { first = FRA second = ROU subject_type = vassal }
+    #dependency = { first = FRA second = FLA subject_type = vassal start_date = 1305.6.23 } #Reined in as a vassal of France by the Treaty of Athis-sur-Orge in 1305, confirmed after the Battle of Cassel in 1328
+    #dependency = { first = FRA second = NEV subject_type = vassal } #In a PU with FLA
+    #dependency = { first = FRA second = RET subject_type = vassal } #In a PU with FLA
     dependency = { first = FRA second = NRB subject_type = vassal }
     dependency = { first = FRA second = VNT subject_type = vassal }
     dependency = { first = FRA second = RCC subject_type = vassal }
