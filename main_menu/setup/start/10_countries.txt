@@ -14264,7 +14264,14 @@ countries = {
 		own_control_core = {
 			paris brie_comte_robert corbeil montmorency
 			amiens breteuil corbie nesle peronne
-			clermont montargis sens saint_florentin senlis nemours melun
+			montargis sens saint_florentin senlis nemours melun
+			#clermont
+			#riom
+			#allegre
+			#brioude
+			#vodable
+			#le_puy #C. du Velay
+			#chalancon 
 			beauvais saint_quentin noyon la_rochelle
 			ribemont laon
 			cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
@@ -14273,7 +14280,7 @@ countries = {
 			bar_sur_seine
 			limeuil sarlat marmande montflanquin
 			braine loudun
-			mauriac riom tour_auvergne brioude saint_flour vodable
+			mauriac tour_auvergne saint_flour
 			montaigut herment
 
 			tours chinon loches chatillon_sur_indre #D. de Touraine
@@ -14285,11 +14292,10 @@ countries = {
 			limoges nontron segur st_leonard aixe thiviers #Vic. Limoges
 			turenne gourdon #Vic.Turenne
 			mende #C. de Gevaudan
-			langres grancey #D. de Langres
+			#langres grancey #D. de Langres
 			#macon #C. de Macon
 			#beaujeu perreux trevoux #S.de Beaujeu
 			#lyon riverie #C. de Lyon
-			le_puy #C. du Velay
 			viviers # C. de Viviers
 			nimes uzes melgueil
 			french_ales #S. Ales
@@ -14312,7 +14318,7 @@ countries = {
 			meaux
 			provins
 			peyrusse entraigues st_affrique
-			allegre chalancon peyre chateauneuf_de_randon florac st_ambroix
+		    peyre chateauneuf_de_randon florac st_ambroix
 		}
 		own_control_integrated = {
 			#Appanages
@@ -14339,7 +14345,7 @@ countries = {
 		}
 
 		own_control_conquered = {
-			lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
+			#lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
 		}
 
 		our_cores_conquered_by_others = {
@@ -14569,6 +14575,7 @@ countries = {
 			avallon
 			montcenis
 			aignay arnay beaune auxonne louhans
+			langres grancey #D. de Langres
 		}
 
 		starting_technology_level = 3
@@ -14772,6 +14779,13 @@ countries = {
 	#Auvergne (Appanage)
 	AUV = {
 		own_control_core = {
+			clermont
+			riom
+			allegre
+			brioude
+			vodable
+			le_puy #C. du Velay
+			chalancon 
 			vic_le_comte
 		}
 		starting_technology_level = 3
@@ -17349,6 +17363,7 @@ countries = {
 		own_control_core = {
 			valenciennes #France
 			ath chimay enghien maubeuge mons
+			lille douai tournai #From Flanders after the Treaty of Athis-sur-Orge
 		}
 
 		starting_technology_level = 3
