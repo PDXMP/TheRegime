@@ -2510,9 +2510,11 @@ portuguese_monarchy_reform = {
 		has_embraced_institution = institution:legalism
 	}
 	country_modifier = {
-		navy_maintenance_cost = -0.05
+		#navy_maintenance_cost = -0.05
 		global_sailors_modifier = 0.1
+		fort_maintenance_cost = -0.33
 		tax_income_efficiency = large_tax_income_efficiency_bonus
+		monthly_legitimacy = 0.1
 	}
 	years = 2
 }
