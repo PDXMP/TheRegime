@@ -162,7 +162,7 @@ diplomacy_manager = {
     #dependency = { first = FRA second = BUR subject_type = appanage }
     dependency = { first = FRA second = ALE subject_type = appanage }
     #dependency = { first = FRA second = AUV subject_type = appanage }
-    dependency = { first = FRA second = BGN subject_type = appanage }
+    #dependency = { first = FRA second = BGN subject_type = appanage }
     #dependency = { first = FRA second = BOU subject_type = appanage }
     #dependency = { first = FRA second = AUX subject_type = appanage }
     #dependency = { first = FRA second = SAN subject_type = appanage }
