@@ -112,14 +112,15 @@ setup_mod.1 = {
 						}
 					}
 				 }
-				 sub_continent:south_asia = {
-					every_location_in_sub_continent = {
-						owner = { abandon_location = prev }
-						every_pop = {
-							destroy_pop = this
-						}
-					}
-				 }
+#Jan 20 2026 - Readding India for Regime G2
+#				 sub_continent:south_asia = {
+#					every_location_in_sub_continent = {
+#						owner = { abandon_location = prev }
+#						every_pop = {
+#							destroy_pop = this
+#						}
+#					}
+#				 }
 				 continent:oceania = {
 					every_location_in_continent = {
 						owner = { abandon_location = prev }
@@ -138,11 +139,12 @@ setup_mod.1 = {
                         add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
                     }
 				}
-				sub_continent:south_asia = {
-                    every_location_in_sub_continent = {
-                        add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
-                    }
-				}
+#Jan 20 2026 - Readding India for Regime G2
+#				sub_continent:south_asia = {
+#                    every_location_in_sub_continent = {
+#                        add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
+#                    }
+#				}
 				continent:oceania = {
                     every_location_in_continent = {
                         add_location_modifier = { modifier = noasiacolonize_modifier years = 600 mode = add}
