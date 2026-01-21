@@ -14283,9 +14283,9 @@ countries = {
 			turenne gourdon #Vic.Turenne
 			mende #C. de Gevaudan
 			langres grancey #D. de Langres
-			macon #C. de Macon
-			beaujeu perreux trevoux #S.de Beaujeu
-			lyon riverie #C. de Lyon
+			#macon #C. de Macon
+			#beaujeu perreux trevoux #S.de Beaujeu
+			#lyon riverie #C. de Lyon
 			le_puy #C. du Velay
 			viviers # C. de Viviers
 			nimes uzes melgueil
@@ -15506,6 +15506,9 @@ countries = {
 		own_control_core = {
 			roanne montbrison feurs saint_etienne
 			thiers #S. Thiers
+			macon #C. de Macon
+			beaujeu perreux trevoux #S.de Beaujeu
+			lyon riverie #C. de Lyon
 		}
 
 		starting_technology_level = 3
