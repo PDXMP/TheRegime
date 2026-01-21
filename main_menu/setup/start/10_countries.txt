@@ -13943,9 +13943,10 @@ countries = {
 
 			centralization_vs_decentralization = 15
 			mercantilism_vs_free_trade = -20
-			land_vs_naval = -10
+			land_vs_naval = 40
 			quality_vs_quantity = -10
 			capital_economy_vs_traditional_economy = 80
+			offensive_vs_defensive = 60
 		}
 
 		tolerated_cultures = {
