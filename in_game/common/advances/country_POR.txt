@@ -8,6 +8,7 @@ por_battle_ourique = {
 		}
 	}
 	army_infantry_power = 0.1
+	levy_combat_efficiency_modifier = 0.1
 	
 	requires = cultural_traditions_law_advance
 }
