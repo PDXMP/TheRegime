@@ -718,7 +718,7 @@ administrative_system = {
 			}
 		}
 		country_modifier = {
-			global_distance_from_capital_cost_modifier = -0.1
+			global_distance_from_capital_cost_modifier = -0.05
 			global_monthly_development = 0.001
 		}
 		estate_preferences = {
@@ -838,7 +838,7 @@ administrative_system = {
 			culture = culture:castilian
 		}
 		country_modifier = {
-			global_distance_from_capital_cost_modifier = -0.1
+			global_distance_from_capital_cost_modifier = -0.05
 			global_integration_speed_modifier = 0.1
 			global_nobles_estate_power = 0.1
 		}
