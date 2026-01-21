@@ -4455,7 +4455,8 @@ countries = {
 			}
 			privilege = {
 				#nobles
-				auxilium_et_consilium
+				#auxilium_et_consilium
+				monetary_fiefs
 				nobles_land_rights
 				noble_marriage_rights
 				noble_fortification_licenses
