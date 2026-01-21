@@ -13,7 +13,7 @@ french_heritage = {
 	potential = {
 		has_or_had_tag = FRA
 	}
-	nobles_estate_levy_size = 1.0
+	nobles_estate_levy_size = 0.5
 	
 	requires = french_tradition
 }
@@ -29,7 +29,7 @@ elan = {
 	potential = {
 		has_or_had_tag = FRA
 	}
-	land_morale_modifier = 0.2
+	land_morale_modifier = 0.15
 }
 estates_general = {
 	age = age_3_discovery
@@ -45,7 +45,7 @@ fra_gendarmes = {
 		has_or_had_tag = FRA
 	}
 	army_cavalry_power = 0.1
-	army_maintenance_cost = -0.05
+	#army_maintenance_cost = -0.05
 }
 
 fra_integration_of_new_territories = {
