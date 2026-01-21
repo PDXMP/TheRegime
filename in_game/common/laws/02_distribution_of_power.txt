@@ -125,7 +125,7 @@
 		}
 		country_modifier = {
 			global_crown_estate_power = -0.33
-			monthly_legitimacy = 0.05
+			#monthly_legitimacy = 0.05
 			global_estate_max_tax = 0.1
 			nobles_estate_agenda_impact = 0.1
 			burghers_estate_agenda_impact = 0.1
