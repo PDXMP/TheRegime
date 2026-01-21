@@ -13919,7 +13919,7 @@ countries = {
 
 			reforms = {
 				portuguese_monarchy_reform
-				feudal_nobility
+				#feudal_nobility
 			}
 			privilege = {
 				#Clergy
