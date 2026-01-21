@@ -11493,6 +11493,9 @@ countries = {
 			bourg_en_bresse belley gex bage thoire
 			morgex aosta chatillonaos
 			vienne 
+			villars 
+			la_tour_du_pin 
+			romans saint_marceilin 
 		}
 
 		starting_technology_level = 3
@@ -17199,9 +17202,9 @@ countries = {
 	DAU = {
 		own_control_core = {
 			grenoble gap briancon pragelato
-			romans la_mure saint_marceilin 
-			mevouillon villars 
-			la_tour_du_pin 
+			la_mure #romans saint_marceilin 
+			mevouillon #villars 
+			#la_tour_du_pin 
 			#r_faucigny sallanches #Barony of 	Faucigny
 		}
 
