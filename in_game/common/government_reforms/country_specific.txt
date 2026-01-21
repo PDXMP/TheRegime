@@ -2983,7 +2983,7 @@ crown_castile_reform = {
 		monthly_towards_aristocracy = societal_value_monthly_move
 		change_policy_cost_modifier = -0.25
 		global_manpower_modifier = 0.10
-		monthly_legitimacy = 0.05
+		#monthly_legitimacy = 0.05
 	}
 	years = 2
 }
