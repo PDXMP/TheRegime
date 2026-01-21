@@ -23,6 +23,7 @@ por_establishment_portuguese_navy = {
 	}
 	monthly_navy_tradition = 0.1
 	navy_movement_speed = 0.1
+	navy_maintenance_cost = -0.05
 	
 	requires = ship_building_advance
 }
