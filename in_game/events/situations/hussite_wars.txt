@@ -242,7 +242,6 @@ hussite_wars.2 = { #Hussite Protests Turn Violent in [BOH.GetCountry.GetCapital.
 							is_enemy_of = c:PAP
 						}
 					}
-					trigger_event_silently = hussite_wars.3
 					set_variable = had_hussite_wars3_event_variable
 				}
 			}
@@ -266,7 +265,6 @@ hussite_wars.2 = { #Hussite Protests Turn Violent in [BOH.GetCountry.GetCapital.
 						is_enemy_of = c:PAP
 					}
 				}
-				trigger_event_non_silently = hussite_wars.3
 			}
 		}
 		if = {
