@@ -14271,7 +14271,10 @@ countries = {
 			#brioude
 			#vodable
 			#le_puy #C. du Velay
-			#chalancon 
+			#chalancon
+			#st_ambroix
+			#uzes
+			#nimes 
 			beauvais saint_quentin noyon la_rochelle
 			ribemont laon
 			cahors mirepoix limoux carcassonne lavaur castelnaudary condom nerac bazas agen
@@ -14297,7 +14300,7 @@ countries = {
 			#beaujeu perreux trevoux #S.de Beaujeu
 			#lyon riverie #C. de Lyon
 			#viviers # C. de Viviers
-			nimes uzes melgueil
+			melgueil
 			french_ales #S. Ales
 			chambon #B. de Combraille
 			chalons_champagne #C. de Chalon
@@ -14318,7 +14321,7 @@ countries = {
 			meaux
 			provins
 			peyrusse entraigues st_affrique
-		    peyre chateauneuf_de_randon florac st_ambroix
+		    peyre chateauneuf_de_randon florac 
 		}
 		own_control_integrated = {
 			#Appanages
@@ -17277,6 +17280,9 @@ countries = {
 	ORA = {
 		own_control_core = {
 			orange
+			st_ambroix
+			uzes
+			nimes
 		}
 
 		starting_technology_level = 3
