@@ -13835,6 +13835,7 @@ countries = {
 			privilege = {
 				#Noblity
 				monetary_fiefs
+				banal_lordship
 				#Clergy
 				clergy_military_orders
 				#Commoners
