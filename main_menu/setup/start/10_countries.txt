@@ -14085,6 +14085,7 @@ countries = {
 			almeria almanzora baza gergal mojacar velez_rubio
 			granada adra almunecar guadix huescar illora loja pinar orgiva
 			malaga antequera velez_malaga
+			ronda algeciras gibraltar marbella
 		}
 
 		our_cores_conquered_by_others = {
@@ -18473,7 +18474,7 @@ countries = {
 			jerada taourirt debdou echemmaia sidi_bennour
 			nedroma tegeget kalaat_sraghna midelt
 			aouint_yghomane afso ifrane
-			ronda algeciras gibraltar marbella
+			#ronda algeciras gibraltar marbella
 		}
 
 		control = {
