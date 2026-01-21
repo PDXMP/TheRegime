@@ -20,7 +20,7 @@ cas_the_reconquista = {
 			is_castilian_spain = yes
 		}
 	}
-	land_morale_modifier = 0.15
+	land_morale_modifier = 0.1
 
 	requires = feudalism_advance
 }
