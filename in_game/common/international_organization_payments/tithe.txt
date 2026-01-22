@@ -52,7 +52,7 @@
 					add = estate_taxable_income
 				}
 				multiply = {
-					value = 1
+					value = 0.25
 					add = modifier:tithe_cost_modifier
 					min = 0.1
 				}
@@ -125,7 +125,7 @@
 							add = estate_taxable_income
 						}
 						multiply = {
-							value = 0.25
+							value = 1
 							add = modifier:tithe_cost_modifier
 							min = 0.1
 						}
@@ -137,7 +137,7 @@
 			#simple, just pay the pope
 			add = {
 				desc = "tithe"
-				value = 0.25
+				value = 1
 			}
 		}
 	}
