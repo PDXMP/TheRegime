@@ -415,7 +415,7 @@ order_stronghold = {
 		local_clergy_estate_power = 1.0
 		local_defensive = 0.25
 		
-		local_manpower = 0.001
+		#local_manpower = 0.001
 
 
 		can_recruit_regiment_in_this_location = yes
