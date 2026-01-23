@@ -1,0 +1,14 @@
+monthly_country_pulse = {
+	on_actions = {
+		r_on_near_max_war_exhaustion
+	}
+}
+# Workaround for Chain insta surrender from max war exhaustion
+r_on_near_max_war_exhaustion = {
+	trigger = {
+		war_exhaustion_percentage >= 0.95
+	}
+	effect = {
+		add_war_exhaustion = war_exhaustion_weak_bonus
+	}
+}
