@@ -62,6 +62,14 @@
 
 	can_join_trigger = {
 		is_rebel_country = no
+		scope:actor ?= {
+			OR = {
+				not = { scope_type = country }
+				is_subject_type = colonial_nation
+				is_subject_type = vassal
+				is_subject_type = fiefdom
+			}
+		}
 		knows_country = scope:target
 
 		opinion = {
