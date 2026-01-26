@@ -23,7 +23,7 @@ hussite_wars.1 = { #Jan Želivský's Congregation
 		character:boh_jan_hus = {
 			is_alive = no
 		}
-		c:PAP = {
+		c:FRA = {
 			is_subject = no
 		}
 		OR = {
@@ -50,7 +50,7 @@ hussite_wars.1 = { #Jan Želivský's Congregation
 		c:BOH = {
 			capital = { save_scope_as = target_boh_capital_scope }
 		}
-		c:PAP = { save_scope_as = target_pope_country }
+		c:FRA = { save_scope_as = target_france_country }
 		ordered_owned_location = {
 			order_by = population
 			limit = {
@@ -107,7 +107,7 @@ hussite_wars.1 = { #Jan Želivský's Congregation
 
 		custom_tooltip = pap_gets_hussite_wars.2_tt
 		hidden_effect = {
-			c:PAP = { trigger_event_non_silently = hussite_wars.2 }
+			c:FRA = { trigger_event_non_silently = hussite_wars.2 }
 		}
 		add_religious_influence = religious_influence_ultimate_bonus
 		add_country_modifier = {
@@ -179,19 +179,19 @@ hussite_wars.2 = { #Hussite Protests Turn Violent in [BOH.GetCountry.GetCapital.
 		religion:catholic = {
 			ordered_country_in_religion = {
 				limit = {
-					NOT = { this = c:PAP }
+					NOT = { this = c:FRA }
 					NOT = { is_allied_with = { target = c:BOH } }
 					NOT = { is_at_war_with = c:BOH }
 					NOT = { has_truce_with = c:BOH }
 					is_subject = no
-					NOT = { is_rival_of = c:PAP }
-					NOT = { is_enemy_of = c:PAP }
+					NOT = { is_rival_of = c:FRA }
+					NOT = { is_enemy_of = c:FRA }
 					NOT = { is_neighbor_of = c:BOH }
 					exists = capital
 					capital.region = {
 						OR = {
 							this = c:BOH.capital.region
-							this = c:PAP.capital.region
+							this = c:FRA.capital.region
 						}
 					}
 				}
@@ -238,10 +238,11 @@ hussite_wars.2 = { #Hussite Protests Turn Violent in [BOH.GetCountry.GetCapital.
 						NOT = { is_at_war_with = c:BOH }
 						NOT = { is_subject_of = c:BOH }
 						NOR = {
-							is_rival_of = c:PAP
-							is_enemy_of = c:PAP
+							is_rival_of = c:FRA
+							is_enemy_of = c:FRA
 						}
 					}
+					trigger_event_silently = hussite_wars.3
 					set_variable = had_hussite_wars3_event_variable
 				}
 			}
@@ -261,10 +262,11 @@ hussite_wars.2 = { #Hussite Protests Turn Violent in [BOH.GetCountry.GetCapital.
 					NOT = { is_at_war_with = c:BOH }
 					NOT = { tag = BOH }
 					NOR = {
-						is_rival_of = c:PAP
-						is_enemy_of = c:PAP
+						is_rival_of = c:FRA
+						is_enemy_of = c:FRA
 					}
 				}
+				trigger_event_non_silently = hussite_wars.3
 			}
 		}
 		if = {
@@ -281,10 +283,10 @@ hussite_wars.2 = { #Hussite Protests Turn Violent in [BOH.GetCountry.GetCapital.
 			limit = {
 				country_exists = c:POL
 				c:POL = {
-					NOT = { is_at_war_with = c:PAP }
+					NOT = { is_at_war_with = c:FRA }
 					is_subject = no
-					NOT = { has_truce_with = c:PAP }
-					NOT = { is_allied_with = { target = c:PAP } }
+					NOT = { has_truce_with = c:FRA }
+					NOT = { is_allied_with = { target = c:FRA } }
 				}
 			}
 			c:POL = { trigger_event_non_silently = hussite_wars.7 }
@@ -309,11 +311,11 @@ hussite_wars.2 = { #Hussite Protests Turn Violent in [BOH.GetCountry.GetCapital.
 			religion:catholic = {
 				every_country_in_religion = {
 					limit = {
-						NOT = { tag = PAP }
+						NOT = { tag = FRA }
 					}
 					add_opinion = {
 						modifier = folded_to_hussites_modifier
-						target = c:PAP
+						target = c:FRA
 					}
 				}
 			}
@@ -337,7 +339,7 @@ hussite_wars.3 = { #A Pious Call to Arms
 	desc = hussite_wars.3.desc
 
 	immediate = {
-		c:PAP = {
+		c:FRA = {
 			random_current_war = {
 				limit = {
 					defender_leader = c:BOH
@@ -365,7 +367,7 @@ hussite_wars.3 = { #A Pious Call to Arms
 			modifier = {
 				factor = 0.75
 				opinion = {
-					target = c:PAP
+					target = c:FRA
 					value <50
 				}
 			}
@@ -373,7 +375,7 @@ hussite_wars.3 = { #A Pious Call to Arms
 
 		create_relation = {
 			first = this
-			second = c:PAP
+			second = c:FRA
 			type = relation_type:alliance
 		}
 
@@ -396,7 +398,7 @@ hussite_wars.3 = { #A Pious Call to Arms
 			modifier = {
 				factor = 1.25
 				opinion = {
-					target = c:PAP
+					target = c:FRA
 					value >50
 				}
 			}
@@ -544,7 +546,7 @@ hussite_wars.6 = { #Heretics at the Gates
 	desc = hussite_wars.6.desc
 
 	immediate = {
-		c:PAP = {
+		c:FRA = {
 			ruler_or_regent = { save_scope_as = target_ruler1 }
 			random_current_war = {
 				limit = {
@@ -578,7 +580,7 @@ hussite_wars.6 = { #Heretics at the Gates
 
 		create_relation = {
 			first = this
-			second = c:PAP
+			second = c:FRA
 			type = relation_type:alliance
 		}
 
@@ -626,7 +628,7 @@ hussite_wars.7 = { #The Plight of the Hussites
 	desc = hussite_wars.7.desc
 
 	immediate = {
-		c:PAP = {
+		c:FRA = {
 			random_current_war = {
 				limit = {
 					defender_leader = c:BOH
@@ -810,7 +812,7 @@ hussite_wars.9 = {
 		}
 
 		if = {
-			limit = { tag = PAP }
+			limit = { tag = FRA }
 			hidden_effect = {
 				c:BOH = {
 					add_country_modifier = {
@@ -861,11 +863,11 @@ hussite_wars.9 = {
 			}
 		}
 		else = {
-			c:PAP = {
+			c:FRA = {
 				random_current_war = {
 					limit = {
 						defender_leader = c:BOH
-						attacker_leader = c:PAP
+						attacker_leader = c:FRA
 					}
 					root = {
 						join_war_as_defender = { war = prev }
@@ -873,14 +875,6 @@ hussite_wars.9 = {
 				}
 			}
 		}
-	}
-
-	option = {
-		name = hussite_wars.9.b
-		ai_chance = {
-			base = 10
-		}
-		add_prestige = prestige_mild_penalty
 	}
 }
 
@@ -895,8 +889,8 @@ hussite_wars.10 = {
 	image = "gfx/interface/illustrations/situation/hussite_wars.dds"
 
 	immediate = {
-		c:PAP = {
-			save_scope_as = target_papal_states
+		c:FRA = {
+			save_scope_as = target_france
 			capital = { save_scope_as = target_location1 }
 			ruler_or_regent = { save_scope_as = target_character1 }
 		}
