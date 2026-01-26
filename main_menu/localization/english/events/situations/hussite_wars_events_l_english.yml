@@ -67,7 +67,7 @@
  hussite_wars.1.c: "It is time we take up the sword against the traitors in our midst!"
  end_hussite_wars_situation_tt: "This will prevent the [ShowSituationName('hussite_wars')] [situation|e]"
  catholics_upset_tt: "Relations between us and countries that follow the [ShowReligionAdjective('catholic')] faith will worsen severely"
- pap_gets_hussite_wars.2_tt: "The event '#Y Hussite Protests in [target_boh_capital_scope.GetNameWithNoTooltip]#!' happens for the [target_pope_country.GetName]"
+ pap_gets_hussite_wars.2_tt: "The event '#Y Hussite Protests in [target_boh_capital_scope.GetNameWithNoTooltip]#!' happens for the [target_france_country.GetName]"
  boh_every_neighboring_country_tt: "Every non-allied [country|e] bordering us or any of our [subjects|e] will lose [ShowBiasValue('violated_congress_of_visegrad_modifier')|-=0] [opinion|e] towards us"
  hussite_rebellion_tooltip: "Every [pop|e] that follows [ShowReligionName('hussite')] will muster their strength and support the [hussite_rebel_scope.GetName]"
  
