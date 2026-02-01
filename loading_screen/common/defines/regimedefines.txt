@@ -4,10 +4,10 @@
 	MORNING_OFFSET = 0
 	
 	GAME_SPEED_TICKS = {	# how many seconds should an hour take in every game speed
-		1
+		0.55
+		0.48
+		0.42
 		0.4
-		0.1 
-		0.02 
 		0.0
 	}
 	GAME_SPEED_SCALES = {	# Factors to scale speed
